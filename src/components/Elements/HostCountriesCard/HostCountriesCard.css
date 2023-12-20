@@ -1,0 +1,156 @@
+.HC-Card{
+    flex-shrink: 0;
+    border-radius: 16px;
+    filter:drop-shadow(0px 3.173px 19.04px rgba(189, 189, 189, 0.23));
+    background-size: cover;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+.swiper-slide-active .HC-Card{
+    opacity: 1;
+}
+.HC-filter{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 31.6%, rgba(0, 0, 0, 0.52) 73.45%);
+    position: relative;
+}
+.HC-info{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+}
+.HC-info h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28.855px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.HC-info p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11.222px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144%;
+    width: fit-content;
+}
+
+@media(min-width: 2664px){
+    .HC-Card{
+        width: 800px;
+        height: 500px;
+    }
+    .HC-filter{
+        width: 800px;
+        height: 500px;
+    }
+    .HC-slide{
+        height: 500px !important;
+        width: 800px !important;
+    }
+    .HC-info h3{
+        font-size: 50.855px;
+    }
+    .HC-info p{
+        font-size: 20px;
+    }
+    .HostCountries-swiper{
+        padding:20px 350px !important;
+    }
+}
+@media(max-width: 2664px){
+    .HC-Card{
+        width: 680px;
+        height: 400px;
+    }
+    .HC-filter{
+        width: 680px;
+        height: 400px;
+    }
+    .HC-slide{
+        height: 400px !important;
+        width: 680px !important;
+    }
+    .HC-info h3{
+        font-size: 40.855px;
+    }
+    .HC-info p{
+        font-size: 18px;
+    }
+    .HostCountries-swiper{
+        padding:20px 200px !important;
+    }
+}
+@media(max-width: 2000px){
+    .HC-Card{
+        width: 600px;
+        height: 350px;
+    }
+    .HC-filter{
+        width: 600px;
+        height: 350px;
+    }
+    .HC-slide{
+        height: 350px !important;
+        width: 600px !important;
+    }
+    .HC-info h3{
+        font-size: 34.855px;
+    }
+    .HC-info p{
+        font-size: 16px;
+    }
+    .HostCountries-swiper{
+        padding:20px 100px !important;
+    }
+}
+@media(max-width: 1000px){
+    .HC-Card{
+        width: 400px;
+        height: 273px;
+    }
+    .HC-slide{
+        height: 273px !important;
+        width: 400px !important;
+    }
+    .HC-filter{
+        width: 400px;
+        height: 273px;
+    }
+    .HC-info h3{
+        font-size: 28.855px;
+    }
+    .HC-info p{
+        font-size: 12px;
+    }
+}
+@media(max-width: 700px){
+    .HC-Card{
+        width: 343px;
+        height: 230px;
+    }
+    .HC-slide{
+        height: 230px !important;
+        width: 343px !important;
+    }
+    .HC-filter{
+        width: 343px;
+        height: 230px;
+    }
+    .HC-info h3{
+        font-size: 28.855px;
+    }
+    .HC-info p{
+        font-size: 12px;
+    }
+    .HostCountries-swiper .swiper-pagination{
+        display: block !important;
+    }
+    .HostCountries-swiper{
+        padding:50px 0 !important;
+    }
+}

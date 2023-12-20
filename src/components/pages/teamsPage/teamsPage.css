@@ -1,0 +1,97 @@
+.TeamsPage .TeamsSection {
+    display: flex;
+        padding: 32px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    margin: 0px 15px 50px;
+}
+.TeamsPage .TeamsSection .FiltersTeams {
+    display: flex;
+    padding: 0px 13px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+.TeamsPage .TeamsSection .FiltersTeams::before {
+    content: "";
+    position: absolute;
+    width: calc(100% - 26px);
+    margin: auto;
+    height: 4px;
+    background-color: #a4a4a45a;
+    bottom: 16px;
+    z-index: 0;
+}
+.TeamsPage .TeamsSection .FiltersTeams select {
+    padding: 10px 50px 10px 10px;
+    width: 100%;
+    background-color: #F6F6F6 ;
+    color: #5742A9;
+    border: #5742A9 solid 2px;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 600;
+}
+
+@media (max-width: 880px) {
+    .TeamsPage .TeamsSection .FiltersTeams::before {
+        height: 0px;
+        width: 0px;
+        display: none;
+    }
+}
+.TeamsPage .TeamsSection .FiltersTeams .filters {
+    color: #A4A4A4;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    padding: 20px 0px;
+    cursor: pointer;
+
+}
+.TeamsPage .TeamsSection .FiltersTeams .filters.active{
+    color: var(--Black, #5742A9);
+    font-weight: 600;
+    border-bottom: 4px solid #5742A9;
+    z-index: 2;
+    
+}
+.TeamsPage .Teams {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.TeamsPage .Teams .Continent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.TeamsPage .Teams .Continent .continentName {
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+.TeamsPage .Teams .Continent .continentCountries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.TeamsPage .Teams .Continent .continentCountries .flag{
+    width: 124px;
+    height: 124px;
+    border-radius: 60px;
+    object-fit: cover;
+}

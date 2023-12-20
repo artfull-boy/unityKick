@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap');
+
+.newsPage {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+    background-color: white;
+    border-radius: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+.newsPage .newsTitle {
+    color: var(--Secondary-800, #181A2A);
+    font-family: 'Source Serif 4', serif;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 111.111% */
+padding: 0px 12px;
+text-align: start;
+width: 100%;
+}
+.newsPage > img{
+    width: 100%;
+    padding: 0px 12px;
+}
+.newsPage .article p {
+    color: var(--Secondary-600, #3B3C4A);
+    padding: 0px 12px;
+/* Article/lg/Regular */
+font-family: Source Serif Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}

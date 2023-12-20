@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Dancing+Script:wght@400;700&family=Inter&family=Nunito&family=Oswald:wght@500&family=Roboto&family=Titillium+Web&display=swap');
+.navbar-content{
+    display: flex;
+    width: 375px;
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 24px 24px 28px 24px;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    gap: 16px;
+    flex-shrink: 0;
+    border: 1px solid #D3D3D3;
+    background: #FFF;
+}
+.navbar-content .logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    margin-bottom: 72px;
+}
+.navbar-content .logo img{
+    width: 61px;
+    height: 61px;
+}
+.navbar-content .logo h2{
+    flex: 1 0 0;
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-routes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+.nav-routes .menu-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    margin-bottom: 40px;
+}
+.nav-routes .menu-item{
+    display: flex;
+    align-items: center !important;
+    gap: 16px;
+    align-self: stretch;
+    cursor: pointer;
+}
+.nav-routes .menu-item:hover h4{
+    color:#5742A9;
+}
+.nav-routes .menu-item:hover path{
+    fill: #5742A9;
+}
+.nav-routes .active h4{
+    color:#5742A9 !important;
+}
+.nav-routes .active path{
+    fill: #5742A9 !important;
+}
+.nav-routes a{
+    text-decoration: none;
+}
+.nav-routes .menu h4{
+    align-self: stretch;
+    color: var(--Dark-Gray, #636363);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.nav-routes .menu-item h4{
+    color: #636363;
+    /* Body/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+.nav-routes .menu-item img{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+.nav-routes .Favoris svg{
+    margin-left: 150px;
+}
+.hide-nav{
+    display: none !important;
+}
+.mobile{
+    width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 100;
+}
+.mobile .nav-routes .Favoris svg{
+    margin-left: 100px;
+}

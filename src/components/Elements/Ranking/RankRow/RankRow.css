@@ -1,0 +1,79 @@
+.rank-row{
+    display: flex;
+    width: 100%;
+    min-width: 773px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    gap: 88px;
+}
+.rr-team{
+    display: flex;
+    float: left;
+    align-items: center;
+    gap: 16px;
+    flex: 1 1;
+}
+.rr-team p{
+    color: var(--Black, #100F0F);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto 0;
+}
+.rr-team img{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto 0;
+}
+.rr-right{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    float: right !important;
+    flex-shrink: 0;
+}
+.rr-point{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rr-point p{
+    color: var(--Black, #100F0F);
+
+/* Paragraf/Regular */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 60px;
+margin: auto 0;
+}
+.rr-history{
+    display: flex;
+    width: 155px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.rr-history i{
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    background-color: rgba(36, 167, 0, 1);
+}

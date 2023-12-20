@@ -1,0 +1,411 @@
+.StatisticsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  margin: 0px 15px 50px;
+}
+.StatisticsPage .MatchScore {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  position: relative;
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+.StatisticsPage .MatchScore .backgroundImages {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  opacity: 0.25;
+  width: 100%;
+}
+
+.StatisticsPage .MatchScore .backgroundImages img {
+  width: 413px;
+  height: 413px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.StatisticsPage .MatchScore .stadium {
+  margin-top: 24px;
+  color: var(--Black, #100f0f);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.StatisticsPage .MatchScore .score {
+  display: flex;
+  gap: 90px;
+  position: relative;
+}
+.StatisticsPage .MatchScore .score .Home,
+.StatisticsPage .MatchScore .score .Away {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.StatisticsPage .MatchScore .score .Home img,
+.StatisticsPage .MatchScore .score .Away img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.StatisticsPage .MatchScore .score .Home p,
+.Away p {
+  color: var(--Black, #100f0f);
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px !important;
+}
+.StatisticsPage .MatchScore .score .scoreMatch p {
+  color: var(--Black, #100f0f);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.StatisticsPage .MatchScore .score .scoreMatch p span {
+  color: var(--Gray, #a4a4a4);
+  text-align: center;
+  margin: 0px 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.StatisticsPage .MatchScore .soccers {
+  display: flex;
+  width: 573px;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: relative;
+}
+.StatisticsPage .MatchScore .soccers p {
+  color: var(--Dark-Gray, #636363);
+
+  /* Body/Regular */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+.StatisticsPage .MatchScore .soccers .right {
+  align-self: flex-end;
+}
+.StatisticsPage .MatchScore .soccers .left {
+  align-self: flex-start;
+}
+.StatisticsPage .MatchScore .soccers .right p {
+  text-align: right;
+}
+.StatisticsPage .MatchScore .soccers .left {
+  text-align: left;
+}
+
+.StatisticsPage .ManOTM {
+  width: 100%;
+  height: fit-content;
+  background-image: url("../../../images/MOTM.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  position: relative;
+  padding: 50px 50px;
+}
+.StatisticsPage .ManOTM > p {
+  font-family: Six Caps;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96%; /* 138.24px */
+  text-transform: uppercase;
+}
+.StatisticsPage .ManOTM > p:first-child {
+  color: #fff;
+}
+.StatisticsPage .ManOTM > p:last-child {
+  color: #f5c451;
+}
+.StatisticsPage .lineups {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  gap: 22px;
+}
+.StatisticsPage .lineups .formation {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 70%;
+  background-color: white;
+    padding: 40px 32px;
+    border-radius: 16px;
+}
+.StatisticsPage .lineups .formation > p {
+  color: var(--Black, #100f0f);
+
+  /* Heading/h4 */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.StatisticsPage .lineups .formation .Teams{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.StatisticsPage .lineups .formation .Teams .Home  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.StatisticsPage .lineups .formation .Teams .Away {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+.StatisticsPage .lineups .formation .Teams .Home .flag, .StatisticsPage .lineups .formation .Teams .Away .flag {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.StatisticsPage .lineups .formation .Teams .Home > div, .StatisticsPage .lineups .formation .Teams .Away > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.StatisticsPage .lineups .formation .Teams .Home > div p, .StatisticsPage .lineups .formation .Teams .Away > div p{
+    color: var(--Black, #100F0F);
+    margin: 0 !important;
+    /* Paragraf/Medium */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.StatisticsPage .lineups .formation .Teams .Home > div p:last-child, .StatisticsPage .lineups .formation .Teams .Away > div p:last-child {
+    color: var(--Gray, #A4A4A4) !important;
+}
+.StatisticsPage .lineups .formation .lineup {
+  position: relative;
+  display: flex;
+  /* background-image: url("../../../images/terrain.png"); */
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  width: 100%;
+  /* height: 27.5vw; */
+  /* display: flex;
+  gap: 30px; */
+}
+.StatisticsPage .lineups .formation .lineup > img {
+  width: 100%;
+  position: relative;
+}
+.StatisticsPage .lineups .formation .lineup .Home{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.StatisticsPage .lineups .formation .lineup .Away {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.StatisticsPage .lineups .formation .lineup .Home > div, .StatisticsPage .lineups .formation .lineup .Away > div {
+    width: calc(50% / 4);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.StatisticsPage .lineups .formation .lineup .Home > div > div {
+    width: 28px;
+    height: 28px;
+    border-radius: 48px;
+    background: #F00;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.StatisticsPage .lineups .formation .lineup .Away > div > div {
+    width: 28px;
+    height: 28px;
+    border-radius: 48px;
+    background: #FAE042;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.StatisticsPage .lineups .formation .lineup .Home > div .gk {
+    align-self: center;
+}
+.StatisticsPage .lineups > .lineup {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    padding: 40px 32px;
+    border-radius: 16px;
+ }
+ .StatisticsPage .lineups > .lineup .TeamLineup {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .StatisticsPage .lineups > .lineup .TeamLineup > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .StatisticsPage .lineups > .lineup .TeamLineup > p {
+     color: var(--Black, #100F0F);
+     margin: 0 !important;
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+    }
+    .StatisticsPage .lineups > .lineup .lineupPlayers {
+        display: flex;
+        justify-content: space-between;
+    }
+    .StatisticsPage .lineups > .lineup .lineupPlayers > .Home p, .StatisticsPage .lineups > .lineup .lineupPlayers > .Away p {
+        color: var(--Black, #100F0F);
+        margin: 0 !important;
+/* Body/Medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .StatisticsPage .lineups > .lineup .lineupPlayers > .Home, .StatisticsPage .lineups > .lineup .lineupPlayers > .Away {
+   display: flex;
+   flex-direction: column;
+   gap: 39px;
+    }
+    .StatisticsPage .lineups > .lineup .lineupPlayers > .Home p span{
+        color: #096A00;
+
+        /* Body/Medium */
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .StatisticsPage .lineups > .lineup .lineupPlayers > .Away p span {
+        color: #560617;
+
+/* Body/Medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+
+@media (max-width:1200px) {
+  .StatisticsPage .lineups {
+    flex-direction: column;
+  }
+  .StatisticsPage .lineups .formation {
+    width: 100%;
+  }
+  .StatisticsPage .lineups > .lineup {
+    width: 100%;
+  }
+}
+@media (max-width:860px) {
+  .StatisticsPage .MatchScore .backgroundImages img {
+    width: 200px;
+    height: 200px;
+  }
+  .StatisticsPage .ManOTM {
+    background-position: center;
+  }
+}
+@media (max-width:650px) {
+  .StatisticsPage .lineups .formation .lineup .Home > div > div, .StatisticsPage .lineups .formation .lineup .Away > div > div {
+    width: 18px;
+    height: 18px;
+  }
+  .StatisticsPage .ManOTM > p {
+    font-size: 90px;  }
+    .StatisticsPage .MatchScore {
+      padding: 0px 20px;
+    }
+    .StatisticsPage .MatchScore .soccers {
+      padding: 0px 15%;
+    }
+    .StatisticsPage .MatchScore .score {
+  gap: 30px;
+}
+}
+@media (max-width:520px) {
+  .StatisticsPage .MatchScore .score .Home p, .StatisticsPage .MatchScore .score .Away p {
+    display: none;
+  }
+  .StatisticsPage .MatchScore .score {
+    align-items: flex-start;
+  }
+  .StatisticsPage .MatchScore .soccers {
+    padding: 0px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+}
+@media (max-width:450px) {
+  .StatisticsPage .ManOTM > p {
+    font-size: 70px;  
+  }
+  .StatisticsPage .lineups .formation .lineup .Home > div > div, .StatisticsPage .lineups .formation .lineup .Away > div > div {
+    width: 15px;
+    height: 15px;
+  }
+  .StatisticsPage .MatchScore .backgroundImages {
+    justify-content: center;
+    gap: 115px
+  }
+
+}

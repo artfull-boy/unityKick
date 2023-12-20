@@ -1,0 +1,333 @@
+{
+    "groups": [
+      {
+        "name": "Group A",
+        "teams": [
+          {
+            "rank": 1,
+            "flag": "https://media.api-sports.io/flags/QA.svg",
+            "team": "Qatar",
+            "win": 3,
+            "draw": 1,
+            "lost": 0,
+            "history": ["D", "W", "D", "W", "W"]
+          },
+          {
+            "rank": 2,
+            "flag": "https://media.api-sports.io/flags/SN.svg",
+            "team": "Senegal",
+            "win": 2,
+            "draw": 2,
+            "lost": 0,
+            "history": ["W", "W", "W", "D", "W"]
+          },
+          {
+            "rank": 3,
+            "flag": "https://media.api-sports.io/flags/NL.svg",
+            "team": "Netherlands",
+            "win": 2,
+            "draw": 1,
+            "lost": 1,
+            "history": ["W", "W", "L", "D", "W"]
+          },
+          {
+            "rank": 4,
+            "flag": "https://media.api-sports.io/flags/EC.svg",
+            "team": "Ecuador",
+            "win": 0,
+            "draw": 2,
+            "lost": 2,
+            "history": ["D", "D", "L", "L", "D"]
+          }
+        ]
+      },
+      {
+        "name": "Group B",
+        "teams": [
+          {
+            "rank": 1,
+            "flag": "https://media.api-sports.io/flags/IR.svg",
+            "team": "Iran",
+            "win": 3,
+            "draw": 1,
+            "lost": 0,
+            "history": ["W", "W", "W", "D", "W"]
+          },
+          {
+            "rank": 2,
+            "flag": "https://media.api-sports.io/flags/US.svg",
+            "team": "United States",
+            "win": 2,
+            "draw": 2,
+            "lost": 0,
+            "history": ["W", "W", "D", "D", "W"]
+          },
+          {
+            "rank": 3,
+            "flag": "https://media.api-sports.io/flags/GB-ENG.svg",
+            "team": "England",
+            "win": 2,
+            "draw": 0,
+            "lost": 2,
+            "history": ["W", "W", "L", "L", "W"]
+          },
+          {
+            "rank": 4,
+            "flag": "https://media.api-sports.io/flags/WA.svg",
+            "team": "Wales",
+            "win": 0,
+            "draw": 2,
+            "lost": 2,
+            "history": ["D", "D", "L", "L", "D"]
+          }
+        ]
+      },
+        {
+        "name": "Group C",
+        "teams": [
+            {
+            "rank": 1,
+            "flag": "https://media.api-sports.io/flags/BE.svg",
+            "team": "Belgium",
+            "win": 2,
+            "draw": 1,
+            "lost": 1,
+            "history": ["W", "W", "L", "D", "W"]
+            },
+            {
+            "rank": 2,
+            "flag": "https://media.api-sports.io/flags/CA.svg",
+            "team": "Canada",
+            "win": 2,
+            "draw": 1,
+            "lost": 1,
+            "history": ["W", "W", "L", "D", "W"]
+            },
+            {
+            "rank": 3,
+            "flag": "https://media.api-sports.io/flags/MA.svg",
+            "team": "Morocco",
+            "win": 1,
+            "draw": 2,
+            "lost": 1,
+            "history": ["D", "W", "L", "D", "D"]
+            },
+            {
+            "rank": 4,
+            "flag": "https://media.api-sports.io/flags/HR.svg",
+            "team": "Croatia",
+            "win": 1,
+            "draw": 1,
+            "lost": 2,
+            "history": ["W", "D", "L", "L", "D"]
+            }
+        ]
+        },
+        {
+        "name": "Group D",
+        "teams": [
+            {
+            "rank": 1,
+            "flag": "https://media.api-sports.io/flags/FR.svg",
+            "team": "France",
+            "win": 2,
+            "draw": 1,
+            "lost": 1,
+            "history": ["W", "D", "W", "D", "L"]
+            },
+            {
+            "rank": 2,
+            "flag": "https://media.api-sports.io/flags/DK.svg",
+            "team": "Denmark",
+            "win": 2,
+            "draw": 1,
+            "lost": 1,
+            "history": ["W", "W", "L", "D", "W"]
+            },
+            {
+            "rank": 3,
+            "flag": "https://media.api-sports.io/flags/TN.svg",
+            "team": "Tunisia",
+            "win": 1,
+            "draw": 2,
+            "lost": 1,
+            "history": ["D", "D", "W", "D", "D"]
+            },
+            {
+            "rank": 4,
+            "flag": "https://media.api-sports.io/flags/AU.svg",
+            "team": "Australia",
+            "win": 1,
+            "draw": 1,
+            "lost": 2,
+            "history": ["D", "W", "L", "D", "L"]
+            }
+        ]
+        },
+        {
+            "name": "Group E",
+            "teams": [
+              {
+                "rank": 1,
+                "flag": "https://media.api-sports.io/flags/ES.svg",
+                "team": "Spain",
+                "win": 2,
+                "draw": 1,
+                "lost": 1,
+                "history": ["W", "W", "L", "D", "W"]
+              },
+              {
+                "rank": 2,
+                "flag": "https://media.api-sports.io/flags/DE.svg",
+                "team": "Germany",
+                "win": 2,
+                "draw": 1,
+                "lost": 1,
+                "history": ["W", "W", "L", "D", "W"]
+              },
+              {
+                "rank": 3,
+                "flag": "https://media.api-sports.io/flags/JP.svg",
+                "team": "Japan",
+                "win": 1,
+                "draw": 1,
+                "lost": 2,
+                "history": ["W", "D", "L", "L", "D"]
+              },
+              {
+                "rank": 4,
+                "flag": "https://media.api-sports.io/flags/CR.svg",
+                "team": "Costa Rica",
+                "win": 1,
+                "draw": 1,
+                "lost": 2,
+                "history": ["D", "W", "L", "L", "D"]
+              }
+            ]
+          },
+          {
+            "name": "Group F",
+            "teams": [
+              {
+                "rank": 1,
+                "flag": "https://media.api-sports.io/flags/BR.svg",
+                "team": "Brazil",
+                "win": 2,
+                "draw": 2,
+                "lost": 0,
+                "history": ["W", "D", "W", "D", "D"]
+              },
+              {
+                "rank": 2,
+                "flag": "https://media.api-sports.io/flags/RS.svg",
+                "team": "Serbia",
+                "win": 2,
+                "draw": 1,
+                "lost": 1,
+                "history": ["W", "W", "L", "D", "W"]
+              },
+              {
+                "rank": 3,
+                "flag": "https://media.api-sports.io/flags/CH.svg",
+                "team": "Switzerland",
+                "win": 1,
+                "draw": 2,
+                "lost": 1,
+                "history": ["D", "W", "L", "D", "D"]
+              },
+              {
+                "rank": 4,
+                "flag": "https://media.api-sports.io/flags/CM.svg",
+                "team": "Cameroon",
+                "win": 1,
+                "draw": 1,
+                "lost": 2,
+                "history": ["D", "L", "W", "D", "L"]
+              }
+            ]
+          },
+          {
+            "name": "Group G",
+            "teams": [
+              {
+                "rank": 1,
+                "flag": "https://media.api-sports.io/flags/PT.svg",
+                "team": "Portugal",
+                "win": 2,
+                "draw": 1,
+                "lost": 1,
+                "history": ["W", "W", "L", "D", "W"]
+              },
+              {
+                "rank": 2,
+                "flag": "https://media.api-sports.io/flags/UY.svg",
+                "team": "Uruguay",
+                "win": 2,
+                "draw": 1,
+                "lost": 1,
+                "history": ["W", "W", "L", "D", "W"]
+              },
+              {
+                "rank": 3,
+                "flag": "https://media.api-sports.io/flags/GH.svg",
+                "team": "Ghana",
+                "win": 1,
+                "draw": 2,
+                "lost": 1,
+                "history": ["D", "L", "W", "D", "D"]
+              },
+              {
+                "rank": 4,
+                "flag": "https://media.api-sports.io/flags/KR.svg",
+                "team": "South Korea",
+                "win": 0,
+                "draw": 2,
+                "lost": 2,
+                "history": ["D", "D", "L", "L", "D"]
+              }
+            ]
+          },
+          
+{
+    "name": "Group H",
+    "teams": [
+      {
+        "rank": 1,
+        "flag": "https://media.api-sports.io/flags/AR.svg",
+      "team": "Argentina",
+        "win": 2,
+        "draw": 2,
+        "lost": 0,
+        "history": ["W", "D", "W", "D", "D"]
+      },
+      {
+        "rank": 2,
+        "flag": "https://media.api-sports.io/flags/SA.svg",
+      "team": "Saudi Arabia",
+        "win": 1,
+        "draw": 2,
+        "lost": 1,
+        "history": ["D", "W", "L", "D", "D"]
+      },
+      {
+        "rank": 3,
+        "flag": "https://media.api-sports.io/flags/MX.svg",
+      "team": "Mexico",
+        "win": 1,
+        "draw": 1,
+        "lost": 2,
+        "history": ["D", "L", "W", "D", "L"]
+      },
+      {
+        "rank": 4,
+        "flag": "https://media.api-sports.io/flags/PL.svg",
+        "team": "Poland",
+        "win": 1,
+        "draw": 1,
+        "lost": 2,
+        "history": ["W", "W", "L", "D", "W"]
+      }
+    ]
+  }
+  ]
+}

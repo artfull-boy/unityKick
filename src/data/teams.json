@@ -1,0 +1,16 @@
+[
+  {"name":"Africa",
+    "country": ["MA", "DZ", "EG", "BJ", "BW", "BF", "BI", "CV", "CM", "LY", "GQ", "ER", "ET", "GA", "GM", "GH", "GN", "CI", "KE", "LS", "LR", "MG", "MW", "ML", "MR", "MU", "YT", "MZ", "NA", "NE", "NG", "RE", "RW", "ST", "SN", "SC", "SL", "SO", "ZA", "SS", "SD", "SZ", "TZ", "TG", "TN", "UG", "EH", "ZM", "ZW"]},
+    {"name":"Europe",
+    "country": ["ES", "PT", "DE", "BE", "FR", "AD", "AT", "AZ",  "CZ", "DK", "EE", "FI", "GE", "GR", "HU", "IT", "KZ", "LV", "LI", "LT", "LU", "MK", "MT", "MD", "MC", "ME", "NL", "NO", "PL", "RO", "RU", "SM", "RS", "SK", "SI", "SE", "CH", "TR", "UA", "GB", "VA"]},
+    {"name":"Asia",
+    "country": ["AM", "AZ", "BH", "BD", "BT", "BN", "KH", "CN", "CY", "TL", "GE", "IN", "ID", "IR", "IQ", "IL", "JP", "JO", "KZ", "KP", "KR", "KW", "KG", "LA", "LB", "MY", "MV", "MN", "MM", "NP", "OM", "PK", "PS", "PH", "QA", "SA", "SG", "LK", "SY", "TW", "TJ", "TH", "TR", "TM", "AE", "UZ", "VN", "YE"]},
+    {"name":"North America",
+    "country": ["BS", "BB", "BZ", "CA", "CR", "CU", "DM", "DO", "SV", "GD", "GT", "HT", "HN", "JM", "MX", "NI", "PA", "PR", "KN", "LC", "VC", "TT", "US"]},
+    {"name":"South America",
+    "country": ["BR", "AR", "BO", "CL", "CO", "EC", "GY", "PY", "PE", "SR", "UY", "VE"]},
+    {
+      "name": "Oceania",
+      "country": ["AU", "FJ", "KI", "MH", "FM", "NR", "NZ", "PW", "PG", "WS", "SB", "TO", "TV", "VU"]}
+  ]
+  
