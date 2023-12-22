@@ -10,6 +10,7 @@ import Teams from './components/pages/dashboard/Teams/Teams';
 import TeamsPage from './components/pages/teamsPage/TeamsPage'
 import Morocco from './components/pages/hostCountry/HostCountry'
 import NewsPage from './components/pages/newsPage/NewsPage'
+import Footer from './components/footer/Footer';
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 1400);
   const [isNavOpen, setIsNavOpen]= useState(false);
@@ -41,7 +42,8 @@ function App() {
             <Route path='/teams' element={<TeamsPage />}></Route>
             <Route path='/Morocco' element={<Morocco />}></Route>
             <Route path="/news/:id" element={<NewsPage />}></Route>
-          </Routes> 
+          </Routes>
+          <Footer/>
       </div>
     </div>
   </Router>

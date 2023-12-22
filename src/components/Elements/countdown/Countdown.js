@@ -30,7 +30,7 @@ export default function Countdown(){
       }, []);
     return<>
             <div className="cd-container text-center">
-                <h2>Morocco vs Croitie</h2>
+                <h2>Morocco vs Germany</h2>
                 <h4>Sunday, 21 January 2030</h4>
                 <div className='cd-time'>
                     <div className='time-elem'>

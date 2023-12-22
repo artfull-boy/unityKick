@@ -1,0 +1,17 @@
+.footer{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    gap: 397px;
+    margin-top: 35px;
+}
+.footer p{
+    color: var(--Dark-Gray, #636363);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+}

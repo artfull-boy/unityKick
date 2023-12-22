@@ -65,6 +65,7 @@
 }
 .nav-routes .active h4{
     color:#5742A9 !important;
+    font-weight: bold !important;
 }
 .nav-routes .active path{
     fill: #5742A9 !important;
