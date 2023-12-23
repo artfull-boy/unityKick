@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './ShopCard.css';
 import React from "react"
 
@@ -8,8 +9,8 @@ export default function ShopCard(props){
                 <img src={props.kit}></img>
             </div>
             <div className='kit-details'>
-                <h3>Morocco Away Kit 2030</h3>
-                <p>$150.10</p>
+                <Link to={props.link}><h3>{props.desc}</h3></Link>
+                <p>{props.price}</p>
             </div>
         </div>
     </>
