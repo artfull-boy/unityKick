@@ -11,8 +11,10 @@ import TeamsPage from './components/pages/teamsPage/TeamsPage'
 import Morocco from './components/pages/hostCountry/HostCountry'
 import NewsPage from './components/pages/newsPage/NewsPage'
 import Footer from './components/footer/Footer';
-import HostCountries from './components/pages/hostCountries/HostCountries';
 import Stadium from './components/pages/Stadiums/Stadium';
+import StatisticsPage from './components/pages/statisticsPage/StatisticsPage';
+import CityDetails from './components/pages/cityDetails/CityDetails';
+import HostCountries from './components/pages/hostCountries/HostCountries'
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 1400);
   const [isNavOpen, setIsNavOpen]= useState(false);
@@ -44,6 +46,8 @@ function App() {
             <Route path='/teams' element={<TeamsPage />}></Route>
             <Route path='/Morocco' element={<Morocco />}></Route>
             <Route path="/news/:id" element={<NewsPage />}></Route>
+            <Route path='/Statistics' element={<StatisticsPage/>}/>
+            <Route path='/CityDetails' element={<CityDetails/>}></Route>
             <Route path="/host" element={<HostCountries />}></Route>
             <Route path="/Bernabeu" element={<Stadium />}></Route>
           </Routes>

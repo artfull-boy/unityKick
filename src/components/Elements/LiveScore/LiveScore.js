@@ -6,7 +6,7 @@ export default function LiveScore(){
         <div className="ls-container">
             <div className='ls-head'>
                 <h3>Live Score</h3>
-                <p>63:24</p>
+                <p>63'</p>
             </div>
             <div className='ls-result'>
                 <img src={`https://media.api-sports.io/flags/MA.svg`}></img>

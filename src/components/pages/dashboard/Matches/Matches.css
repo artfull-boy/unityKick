@@ -6,6 +6,9 @@
     align-items: flex-start;
     gap: 32px;
 }
+a{
+    text-decoration: none;
+}
 .matches-title{
     display: flex;
     height: 97px;

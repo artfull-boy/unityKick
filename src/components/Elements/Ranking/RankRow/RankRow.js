@@ -33,7 +33,7 @@ export default function RankRow(props){
                         }else if(result=='L'){
                             return(<i class="fa-solid fa-x" style={{backgroundColor:'rgba(255, 0, 0, 1)'}}></i>)
                         }else{
-                            return(<i class="fa-solid fa-minus" style={{backgroundColor:'rgba(250, 224, 66, 1)'}}></i>)
+                            return(<i class="fa-solid fa-minus" style={{backgroundColor:'gray'}}></i>)
                         }
                     })}
                 </div>

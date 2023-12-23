@@ -3,6 +3,7 @@ import MatchInfo from '../../../Elements/matchInfo/MatchInfo';
 import './Matches.css';
 import React from 'react';
 import matchesData from '../../../../data/matches.json';
+import { Link } from 'react-router-dom';
 export default function Matches(props){
     const [comingMatch,setComingMatch]=useState(false);
     const [matchData, setMatchData] = useState(matchesData);
@@ -45,7 +46,7 @@ export default function Matches(props){
             matchResult = (
             <div className='matches-result coming-match'>
                 {comingMatches.info.map((match,index)=>{
-                    return (<MatchInfo t1Logo={match.t1Logo} t1={match.t1} score={match.score} t2Logo={match.t2Logo} t2={match.t2} time={match.time} date={match.date} coming={match.coming} index={index}/>)
+                    return (<Link to='/Statistics'><MatchInfo t1Logo={match.t1Logo} t1={match.t1} score={match.score} t2Logo={match.t2Logo} t2={match.t2} time={match.time} date={match.date} coming={match.coming} index={index}/></Link>)
                 }) }
             </div>
             );

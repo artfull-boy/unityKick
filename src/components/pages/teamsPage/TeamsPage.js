@@ -1,8 +1,32 @@
-import React from "react";
+import React, { useEffect,useState } from "react";
 import './teamsPage.css';
 import data from "../../../data/teams.json";
 
 function TeamsPage() {
+    /*-----API CALL--------*/
+    const [data, setData] = useState([]);
+    useEffect (()=>{
+        const url = 'https://api-football-v1.p.rapidapi.com/v3/countries';
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '4afff38393mshbe4a049d71c877bp175c89jsnabdcff598280',
+                'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
+            }
+        };
+        const fetchData = async () => {
+            try {
+                const response = await fetch(url, options);
+                const result = await response.json();
+                setData(result.name);
+                console.log(result);
+            } catch (error) {
+                console.error(error);
+                console.log("salam")
+            }
+        }
+        fetchData();
+    },[])
     const [continent, setContinent] = React.useState("All");
     const [isSmallScreen, setIsSmallScreen] = React.useState(window.innerWidth < 880);
     React.useEffect(()=>{
