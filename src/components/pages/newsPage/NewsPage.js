@@ -12,11 +12,11 @@ function NewsPage() {
     console.log(id)
     const {title,image,description} = data[0].news.find((item) => item.id == id)
     return (
-        <div className='newsPage container '>
+        <div className='newsPage'>
             <p className='newsTitle'>{title}</p>
                 <img src={image} className='img-fluid'></img>
             <div className='article'>
-                <p>{description}</p>
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
             <News country="All"/>
         </div>

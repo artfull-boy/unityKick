@@ -1,0 +1,242 @@
+.hostcountries {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 50px 15px;
+    max-width: 100%;
+}
+
+.hostcountries>img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.hostcountries>p {
+    color: var(--Black, #100F0F);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hostcountries>.mainSection {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background-color: white;
+    padding: 32px 24px;
+    border-radius: 16px;
+    max-width: 100%;
+}
+
+.hostcountries>.mainSection .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hostcountries>.mainSection .title p {
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.hostcountries>.mainSection .title .search {
+    position: relative;
+}
+
+.hostcountries>.mainSection .title input {
+    height: 38px;
+    border-radius: 6px;
+    background: #E6E6E6;
+    display: flex;
+    width: 300px;
+    padding-left: 30px;
+    /* Adjust this value based on your icon's width */
+    align-items: center;
+    gap: 8px;
+    border: none;
+
+}
+
+.hostcountries>.mainSection .title input:focus-visible {
+    outline: auto #636363 1px;
+}
+
+.hostcountries>.mainSection .title input::placeholder {
+    color: var(--Dark-Gray, #636363);
+
+    /* Caption/Regular */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hostcountries>.mainSection .cityCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hostcountries>.mainSection .cityCard {
+    width: 32%;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1.534px 1.534px 21.472px 1.534px rgba(0, 0, 0, 0.05);
+    padding-bottom: 22px;
+}
+@media (max-width: 1080px) {
+    .hostcountries>.mainSection .cityCard {
+        width: 48%;
+    }
+    .staduimCards .staduimCard {
+        max-width: 48%;
+    }
+    
+}
+@media (max-width: 750px) {
+    .hostcountries>.mainSection .cityCard {
+        width: 100%;
+    }
+    .staduimCards .staduimCard {
+        max-width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .hostcountries>.mainSection > .title {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .hostcountries>.mainSection .title input {
+        width: 100%;
+    }
+    .hostcountries>.mainSection .title .search {
+        width: 100%;
+    }
+    .hostcountries>.mainSection .cityCard .citySection p:first-child, .staduimCards .staduimCard .staduimSection .title {
+        font-size: 20px;
+    }
+}
+
+.hostcountries>.mainSection .cityCard img {
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.hostcountries>.mainSection .cityCard .citySection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.hostcountries>.mainSection .cityCard .citySection p {
+    margin: 0px;
+    padding: 0px 20px;
+
+}
+
+.hostcountries>.mainSection .cityCard .citySection p:first-child {
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 23.006px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hostcountries>.mainSection .cityCard .citySection p:last-child {
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 17.254px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.staduimCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.staduimCards .staduimCard {
+    position: relative;
+    max-width: 32%;
+    border-radius: 16px;
+}
+
+.staduimCards .staduimCard img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.staduimCards .staduimCard::after {
+    content: "";
+    position: absolute;
+    border-radius: 15.34px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 31.6%, rgba(0, 0, 0, 0.52) 73.45%);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+}
+    .staduimCards .staduimCard .staduimSection {
+        position: absolute;
+        bottom: 5px;
+        left: 25px;
+        color: white;
+        z-index: 2;
+    }
+    .staduimCards .staduimCard .staduimSection .title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 23.006px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 5px;
+    }
+    .staduimCards .staduimCard .staduimSection .subtitle {
+        color: #FFF;
+font-family: Inter;
+font-size: 17.254px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    @media (max-width: 1080px) {
+        .staduimCards .staduimCard {
+            max-width: 48%;
+        }
+
+        
+        
+    }
+    @media (max-width: 750px) {
+        .staduimCards .staduimCard {
+            max-width: 100%;
+        }
+    }
