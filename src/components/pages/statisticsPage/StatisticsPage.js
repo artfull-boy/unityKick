@@ -1,62 +1,84 @@
-import React from "react";
+import React, { useState } from "react";
 import score from "../../../images/matchscore.png"
 import MOTM from "../../../images/MOTM.png"
 import terrain from "../../../images/terrain.png"
+import matches_data from "../../../data/matches.json";
 import "./StatisticsPage.css";
-
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 export default function StatisticsPage() {
+    const { match_id } = useParams();
+    const desired = matches_data.matches.map((matchDATA)=>(
+        matchDATA.info.find((matchID) => matchID.index == match_id)
+    ));
+    const match=desired[0];
+    const scoreArray = match.score.split(' - ');
+    const team1Score = parseInt(scoreArray[0], 10);
+    const team2Score = parseInt(scoreArray[1], 10);
+    var ManOTM = "";
+    const goalsHome = [];
+    for (let i = 0; i < team1Score; i++) {
+        let minutes = Math.floor(Math.random() * (93 - 5 + 1) + 5);
+        let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
+        goalsHome.push(<p key={i}>{`${match.t1LineUp[player].name} ${minutes}'`}</p>);
+        ManOTM = match.t1LineUp[player].name;
+    }
+    const goalsAway = [];
+    for (let i = 0; i < team2Score; i++) {
+        let minutes = Math.floor(Math.random() * (93 - 5 + 1) + 5);
+        let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
+        goalsAway.push(<p key={i}>{`${match.t2LineUp[player].name} ${minutes}'`}</p>);
+        ManOTM = match.t2LineUp[player].name;
+    }
     return (
         <div className="StatisticsPage">
             <div className="MatchScore">
                 <div className="backgroundImages">
-                    <img src={`https://media.api-sports.io/flags/PT.svg`}></img>
-                    <img src={`https://media.api-sports.io/flags/BL.svg`}></img>
+                    <img src={match.t1Logo}></img>
+                    <img src={match.t2Logo}></img>
                 </div>
                 <p className="stadium">Lusail Stadium</p>
                 <div className="score">
                     <div className="Home">
-                        <img className="flag" src={`https://media.api-sports.io/flags/PT.svg`} />
-                        <p className="country">Portugal</p>
+                        <img className="flag" src={match.t1Logo} />
+                        <p className="country">{match.t1}</p>
                     </div>
                     <div className="scoreMatch">
-                        <p>2 <span>FT</span> 3</p>
+                        <p>{match.score}</p>
                     </div>
                     <div className="Away">
-                        <img className="flag" src={`https://media.api-sports.io/flags/BL.svg`} />
-                        <p className="country">Belgium</p>
+                        <img className="flag" src={match.t2Logo} />
+                        <p className="country">{match.t2}</p>
                     </div>
                 </div>
                 <div className="soccers">
                     <div className="left">
-                        <p>C. Ronaldo 15’</p>
-                        <p>E. Hazard 90 ’+3</p>
+                        {goalsHome}
                     </div>
                     <div className="right">
-                        <p>R. Lukaku 42’</p>
-                        <p>E. Hazard 58’</p>
-                        <p>E. Hazard 90 ’+3</p>
+                        {goalsAway}
                     </div>
                 </div>
             </div>
             <div className="ManOTM">
-                <p>Man of The Match <span>Eden Hazard</span></p>
+                <p>Man of The Match <span>{ManOTM}</span></p>
             </div>
             <div className="lineups">
                 <div className="formation">
                     <p>Team Formation</p>
                     <div className="Teams">
                         <div className="Home">
-                            <img className="flag" src={`https://media.api-sports.io/flags/PT.svg`} />
+                            <img className="flag" src={match.t1Logo} />
                             <div>
-                                <p>Portugal</p>
+                                <p>{match.t1}</p>
                                 <p>4-3-3</p>
                             </div>
                         </div>
                         <p style={{color: "#A4A4A4", fontFamily: "Inter", fontSize: "16px", fontStyle: "normal", fontWeight: "400", lineHeight: "normal"}}>FT</p>
                         <div className="Away">
-                            <img className="flag" src={`https://media.api-sports.io/flags/BL.svg`} />
+                            <img className="flag" src={match.t2Logo} />
                             <div>
-                                <p>Belgium</p>
+                                <p>{match.t2}</p>
                                 <p style={{color:"#A4A4A4", textAlign:"right"}}>4-3-3</p>
                             </div>
                         </div>
@@ -109,38 +131,23 @@ export default function StatisticsPage() {
                 </div>
                 <div className="lineup">
                     <div className="TeamLineup">
-                        <img className="flag" src={`https://media.api-sports.io/flags/PT.svg`} />
+                        <img className="flag" src={match.t1Logo} />
                         <p>
                             Team Line Up
                         </p>
-                        <img className="flag" src={`https://media.api-sports.io/flags/BL.svg`} />
+                        <img className="flag" src={match.t2Logo} />
                     </div>
+                    <div className="trait"></div>
                     <div className="lineupPlayers">
                         <div className="Home">
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
-                            <p><span className="player">GK </span>Diogo Costa</p>
+                            {match.t1LineUp.map((player)=>(
+                                <p><span className="player">{player.pos} </span>{player.name}</p>
+                            ))}
                         </div>
                         <div className="Away">
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
-                            <p>Diogo Costa <span className="player">GK</span></p>
+                            {match.t2LineUp.map((player)=>(
+                                <p>{player.name}<span className="player">{player.pos} </span></p>
+                            ))}
                         </div>
                     </div>
                 </div>

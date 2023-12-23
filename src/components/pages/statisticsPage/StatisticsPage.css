@@ -84,6 +84,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 80px;
 }
 .StatisticsPage .MatchScore .score .scoreMatch p span {
   color: var(--Gray, #a4a4a4);
@@ -283,7 +284,7 @@
     display: flex;
     width: 30%;
     flex-direction: column;
-    gap: 30px;
+    gap: 28px;
     background-color: white;
     padding: 40px 32px;
     border-radius: 16px;
@@ -316,21 +317,24 @@
     .StatisticsPage .lineups > .lineup .lineupPlayers > .Home p, .StatisticsPage .lineups > .lineup .lineupPlayers > .Away p {
         color: var(--Black, #100F0F);
         margin: 0 !important;
-/* Body/Medium */
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  /* Body/Medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
     }
     .StatisticsPage .lineups > .lineup .lineupPlayers > .Home, .StatisticsPage .lineups > .lineup .lineupPlayers > .Away {
    display: flex;
    flex-direction: column;
    gap: 39px;
     }
+    .Away{
+      text-align: end;
+    }
     .StatisticsPage .lineups > .lineup .lineupPlayers > .Home p span{
         color: #096A00;
-
+        margin-right: 5px;
         /* Body/Medium */
         font-family: Inter;
         font-size: 14px;
@@ -340,6 +344,7 @@ line-height: normal;
     }
     .StatisticsPage .lineups > .lineup .lineupPlayers > .Away p span {
         color: #560617;
+        margin-left: 7px;
 
 /* Body/Medium */
 font-family: Inter;

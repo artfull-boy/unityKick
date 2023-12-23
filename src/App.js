@@ -44,7 +44,7 @@ function App() {
             <Route path='/teams' element={<TeamsPage />}></Route>
             <Route path='/Morocco' element={<Morocco />}></Route>
             <Route path="/news/:id" element={<NewsPage />}></Route>
-            <Route path='/Statistics' element={<StatisticsPage/>}/>
+            <Route path='/Statistics/:match_id' element={<StatisticsPage/>}/>
             <Route path='/CityDetails' element={<CityDetails/>}></Route>
           </Routes>
           <Footer/>
