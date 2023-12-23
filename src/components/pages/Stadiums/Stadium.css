@@ -1,6 +1,7 @@
 .stadiumPage {
     display: flex;
-    margin: 50px 15px;
+    margin: 0px 15px 50px;
+    flex-direction: column;
 }
 .stadiumPage .heroSection {
     display: flex;
@@ -10,9 +11,13 @@
     align-items: center;
     position: relative;
 }
+
 .stadiumPage .heroSection .background{
-    width: 100%;
-    max-height: 90vh;
+width: 100%;
+
+    border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+
 }
 .stadiumPage .heroSection .images{
     width: 85%;
@@ -36,4 +41,91 @@
 .stadiumPage .heroSection .images .last {
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+}
+.stadiumPage .heroSection .information {
+    display: flex;
+    width: fit-content;
+    gap: 25px;
+    position: absolute;
+    right: 50%;
+    bottom: 12%;
+    transform: translateX(50%);
+}
+.stadiumPage .heroSection .information > div {
+    width: 170.444px;
+height: 47.667px;
+border-radius: 32.5px;
+background: #FFF;
+padding: 14px;
+display: flex;
+gap: 8px;
+
+align-items: center;
+}
+.stadiumPage .heroSection .information > div > svg {
+    width: 27.444px;
+    height: 27.444px;
+}
+.stadiumPage .heroSection .information > div > p {
+    color: var(--Black, #100F0F);
+    font-family: Inter;
+    font-size: 14.444px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+.stadiumPage .location {
+    padding-right: 47px;
+    padding-left: 47px;
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    align-items: center;
+}
+.stadiumPage .location .infos {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 40%;
+}
+
+.stadiumPage .location .infos p:first-child {
+    color: #333;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 23.111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.stadiumPage .location .infos p:last-child {
+    color: rgba(51, 51, 51, 0.80);
+font-feature-settings: 'liga' off;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 122.222%; /* 15.889px */
+}
+.geolocation {
+    width: 52%;
+}
+.geolocation iframe {
+    width: 100%;
+    height: 400px;
+}
+@media (max-width: 890px) {
+    .stadiumPage .location {
+        flex-direction: column;
+    }
+    .stadiumPage .location .infos {
+        width: 100%;
+        align-items: center;
+    }
+    .geolocation {
+        width: 100%;
+        height: auto;
+    }
 }

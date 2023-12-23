@@ -1,7 +1,7 @@
 import React from 'react';
 import poster from "../../../images/hostMA.png"
 import Matches from "../dashboard/Matches/Matches"
-import "./hostCountry.css";
+import "./participatingCountries.css";
 import ShopCard from '../../Elements/ShopCard/ShopCard';
 import '../../Elements/ShopCard/ShopCard.css'
 import CountryClassement from './components/CountryClassement';
