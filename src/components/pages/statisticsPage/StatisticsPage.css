@@ -114,7 +114,7 @@
   line-height: 120%; /* 16.8px */
 }
 .StatisticsPage .MatchScore .soccers .right {
-  align-self: flex-end;
+  text-align: end;
 }
 .StatisticsPage .MatchScore .soccers .left {
   align-self: flex-start;
