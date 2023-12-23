@@ -39,8 +39,7 @@ export default function StatisticsPage() {
                 </div>
             </div>
             <div className="ManOTM">
-                <p>Man of The Match</p>
-                <p>Eden Hazard</p>
+                <p>Man of The Match <span>Eden Hazard</span></p>
             </div>
             <div className="lineups">
                 <div className="formation">

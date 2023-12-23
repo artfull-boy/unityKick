@@ -25,6 +25,7 @@ h3,h4{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 5px;
 }
 .ls-container p{
     color: #096A00;
@@ -35,6 +36,7 @@ h3,h4{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 0;
 }
 .ls-result{
     display: flex;

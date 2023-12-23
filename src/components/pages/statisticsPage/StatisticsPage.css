@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Dancing+Script:wght@400;700&family=Inter&family=Nunito&family=Oswald:wght@500&family=Roboto&family=Six+Caps&family=Titillium+Web&display=swap');
 .StatisticsPage {
   display: flex;
   flex-direction: column;
@@ -126,7 +127,7 @@
 
 .StatisticsPage .ManOTM {
   width: 100%;
-  height: fit-content;
+  height:500px;
   background-image: url("../../../images/MOTM.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,11 +145,15 @@
   font-weight: 400;
   line-height: 96%; /* 138.24px */
   text-transform: uppercase;
+  display: flex;
+  width: 500px;
+  height: 276px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
 }
-.StatisticsPage .ManOTM > p:first-child {
-  color: #fff;
-}
-.StatisticsPage .ManOTM > p:last-child {
+.StatisticsPage .ManOTM p span {
   color: #f5c451;
 }
 .StatisticsPage .lineups {
@@ -369,6 +374,9 @@ line-height: normal;
     width: 18px;
     height: 18px;
   }
+  .ManOTM{
+    height: 400px !important;
+  }
   .StatisticsPage .ManOTM > p {
     font-size: 90px;  }
     .StatisticsPage .MatchScore {
@@ -388,6 +396,7 @@ line-height: normal;
   .StatisticsPage .MatchScore .score {
     align-items: flex-start;
   }
+
   .StatisticsPage .MatchScore .soccers {
     padding: 0px;
     justify-content: center;
@@ -398,6 +407,9 @@ line-height: normal;
 @media (max-width:450px) {
   .StatisticsPage .ManOTM > p {
     font-size: 70px;  
+  }
+  .ManOTM{
+    height: 300px !important;
   }
   .StatisticsPage .lineups .formation .lineup .Home > div > div, .StatisticsPage .lineups .formation .lineup .Away > div > div {
     width: 15px;
