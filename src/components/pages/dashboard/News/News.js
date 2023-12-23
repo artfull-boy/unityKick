@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 export default function News(props) {
     const FoundNews = newsData.find((item) => item.country == props.country)
     return <>
-        <div className='NewsSection container '>
+        <div className='NewsSection '>
             <div className='standings-title'>
                 <h3>All News and Transfer Today </h3>
             </div>
