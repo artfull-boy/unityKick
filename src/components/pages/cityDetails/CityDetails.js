@@ -29,7 +29,6 @@ export default function CityDetails(){
                             </div>
                             <img src='https://s3-alpha-sig.figma.com/img/4db5/d57d/23b541be15e2288cc940d990e4ce8ea6?Expires=1704067200&Signature=Iropa69AnAIwDJXWcb9Je~DDQb2TpPRKrxmd~wYBV9XOrwUsJu2esePobPyN6XfwpaTTD50~qTVX3WuAIXiP-GTj7xtLvAWCrGCxgPG5BrWbMYSThevXFLvhGkw8q8AdTcVk5tXeplyztuN7Mh-GT~UDIg0y9tfK22UjW2hf7LppnkFrI6c0G9IS1316B1LZfF~4THZtzRFxGi7ap251a3BnhUIQ~scyAcV83BaAJxmgxFH0sIa58bsJGMo3FER8JFmDMsqlcvGMptWOCgko-X13i43b1oOQ6CdQOYmttr~xW9RTpIBFYQtwxr0y1bmO5ymE7fiYPANgebSZa-tPJw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'></img>
                         </div>
-                    g
                         <div className='col-6 col-sm-6	col-md-4 col-lg-4 col-xl-4 col-xxl-4 city-images'>
                             <img src='https://s3-alpha-sig.figma.com/img/b508/08ca/3c7f262eb0f63b2739deeb78e97b10d6?Expires=1704067200&Signature=OE9VvCcGVybXpcb3SrTcUMBRKemtBLmMOzNc4bCObteNbbxIlidbCeecLOtGm~7JsfmZjVh46Hz-FLpajaL-IOIJeWThOcHkYufkQgHpdh2CAThLT0C5BYYEua1W1gKfqueparBy36YL66P2Czf1B~QQqUy9RF9npT8gNUTxz08lgzRDS5rdRNAbTy6USOQLoo9~fEnhXeNNwgL~V8M4~9kvFOz7GcFA29HnDGsh0BR2tbjDN7aiIxyLiIwOhyy~nClS5V2yDYZOCYp87oj6LR8SiKwKMnOVWQgry81Vjkg9BHcsGt3QwHGJFkLwa1fHPGva5buYsqWqMGGzeVY6OQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'></img>
                         </div>

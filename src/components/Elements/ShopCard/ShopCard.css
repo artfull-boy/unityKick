@@ -17,9 +17,10 @@
     border-radius: 16px;
 }
 .kit-img img{
-    width: 227px;
+    width: 186px;
     height: 234px;
     transition: 0.3s;
+    object-fit: cover;
 }
 .kit-details{
     display: flex;
@@ -27,7 +28,8 @@
     align-items: center;
     gap: 8px;
     align-self: stretch;
-    
+    opacity: 0.7;
+    transition: 0.5s;
 }
 .kit-details h3{
     color: var(--Black, #100F0F);
@@ -51,4 +53,7 @@
     justify-content: center;
     text-align: center;
     align-self: stretch;
+}
+.swiper-slide-active .kit-details{
+    opacity: 1;
 }

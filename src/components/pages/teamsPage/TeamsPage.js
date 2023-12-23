@@ -1,10 +1,11 @@
-import React, { useEffect,useState } from "react";
+import React from "react";
 import './teamsPage.css';
 import data from "../../../data/teams.json";
+import { useState,useEffect } from "react";
 
 function TeamsPage() {
     /*-----API CALL--------*/
-    const [data, setData] = useState([]);
+    const [TeamData, setTeamData] = useState([]);
     useEffect (()=>{
         const url = 'https://api-football-v1.p.rapidapi.com/v3/countries';
         const options = {
@@ -18,7 +19,7 @@ function TeamsPage() {
             try {
                 const response = await fetch(url, options);
                 const result = await response.json();
-                setData(result.name);
+                setTeamData(result.name);
                 console.log(result);
             } catch (error) {
                 console.error(error);
