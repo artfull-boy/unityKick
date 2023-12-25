@@ -90,12 +90,13 @@
 .hostcountries>.mainSection .cityCards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
 .hostcountries>.mainSection .cityCard {
-    width: 32%;
+    width: 398px;
+    height: 366.456px;
     background-color: white;
     border-radius: 16px;
     display: flex;
@@ -105,18 +106,14 @@
     padding-bottom: 22px;
 }
 @media (max-width: 1080px) {
-    .hostcountries>.mainSection .cityCard {
-        width: 48%;
-    }
+
     .staduimCards .staduimCard {
         max-width: 48%;
     }
     
 }
 @media (max-width: 750px) {
-    .hostcountries>.mainSection .cityCard {
-        width: 100%;
-    }
+
     .staduimCards .staduimCard {
         max-width: 100%;
     }
@@ -139,7 +136,9 @@
 }
 
 .hostcountries>.mainSection .cityCard img {
-    width: 100%;
+    width: 398px;
+    height: 272.473px;
+object-fit: cover;
     border-top-right-radius: 16px;
     border-top-left-radius: 16px;
 }
@@ -148,7 +147,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
-
+    margin-top: 19px;
 }
 
 .hostcountries>.mainSection .cityCard .citySection p {
@@ -189,7 +188,8 @@
 }
 
 .staduimCards .staduimCard img {
-    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 16px;
 }
 

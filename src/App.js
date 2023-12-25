@@ -48,8 +48,9 @@ function App() {
             <Route path="/news/:id" element={<NewsPage />}></Route>
             <Route path='/Statistics/:match_id' element={<StatisticsPage/>}/>
             <Route path='/CityDetails' element={<CityDetails/>}></Route>
-            <Route path="/host" element={<HostCountries />}></Route>
+            <Route path="/host/:country" element={<HostCountries />}></Route>
             <Route path="/Bernabeu" element={<Stadium />}></Route>
+            
           </Routes>
           <Footer/>
       </div>
