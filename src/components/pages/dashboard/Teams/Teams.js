@@ -20,7 +20,7 @@ export default function Teams(){
                 {
                     countries.map((flag)=>(
                         <div className='flag'>
-                            <Link to={'/Morocco'}><img src={`https://media.api-sports.io/flags/${flag}.svg`}></img></Link>
+                            <Link to={`/NationalTeam/${flag}`}><img src={`https://media.api-sports.io/flags/${flag}.svg`}></img></Link>
                         </div>
                     ))
                 }

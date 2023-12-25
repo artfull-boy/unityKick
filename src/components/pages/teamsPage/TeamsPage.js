@@ -2,32 +2,9 @@ import React from "react";
 import './teamsPage.css';
 import data from "../../../data/teams.json";
 import { useState,useEffect } from "react";
+import {Link} from 'react-router-dom';
 
 function TeamsPage() {
-    /*-----API CALL--------*/
-    const [TeamData, setTeamData] = useState([]);
-    useEffect (()=>{
-        const url = 'https://api-football-v1.p.rapidapi.com/v3/countries';
-        const options = {
-            method: 'GET',
-            headers: {
-                'X-RapidAPI-Key': '4afff38393mshbe4a049d71c877bp175c89jsnabdcff598280',
-                'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
-            }
-        };
-        const fetchData = async () => {
-            try {
-                const response = await fetch(url, options);
-                const result = await response.json();
-                setTeamData(result.name);
-                console.log(result);
-            } catch (error) {
-                console.error(error);
-                console.log("salam")
-            }
-        }
-        fetchData();
-    },[])
     const [continent, setContinent] = React.useState("All");
     const [isSmallScreen, setIsSmallScreen] = React.useState(window.innerWidth < 880);
     React.useEffect(()=>{
@@ -74,7 +51,7 @@ function TeamsPage() {
                         🌍 {array.name}
                         </p>
                         <div className="continentCountries">
-                            {array.country.map((country) => <img className="flag" src={`https://media.api-sports.io/flags/${country}.svg`} /> )}
+                            {array.country.map((country) => <Link to={`/NationalTeam/${country}`}><img className="flag" src={`https://media.api-sports.io/flags/${country}.svg`} /></Link> )}
                         </div>
                 </div>
             ))
@@ -88,7 +65,7 @@ function TeamsPage() {
                             🌍 {selectedContinentData.name}
                             </p>
                             <div className="continentCountries">
-                                {selectedContinentData.country.map((country) => <img className="flag" src={`https://media.api-sports.io/flags/${country}.svg`} /> )}
+                                {selectedContinentData.country.map((country) => <Link to={`/NationalTeam/${country}`}><img className="flag" src={`https://media.api-sports.io/flags/${country}.svg`} /></Link> )}
                             </div>
                     </div>
                 )

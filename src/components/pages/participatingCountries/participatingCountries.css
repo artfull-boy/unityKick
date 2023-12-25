@@ -7,6 +7,7 @@
 }
 .hostCountry .poster {
     width: 100%;
+    position: relative;
 }
 .hostCountry .info {
     width: 100%;
@@ -19,6 +20,9 @@
 }
 .hostCountry .poster img{
     width: 100%;
+    object-fit: cover;
+    min-height: 500px;
+    border-radius: 16px;
 }
 .hostCountry .standings-list {
     height: auto;
@@ -33,12 +37,95 @@
 .hostCountry .shop-card .kit-details {
     align-items: flex-start;
 }
-.hostCountry .shop-card .kit-details p {
-    display: inline;
-    width: 100%;
-    text-align: center !important;
+
+.matches-shop{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 100px;
 }
-.hostCountry .shop-card .kit-details h3 {
-    width: 100%;
-    text-align: center !important;
+.matches-shop .matches{
+    flex: 1 0;
+    width: 100% !important;
+}
+.shop-part-country{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.shop-part-country img{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 16px;
+}
+.shop-part-country .kit-details {
+    display: flex !important;
+    text-align: left;
+    justify-content: left;
+    opacity: 1 !important;
+}
+.shop-part-country .kit-details p{
+    display: flex !important;
+    text-align: left !important;
+    justify-content: left !important;
+}
+@media(max-width: 1800px){
+    .matches-shop .matches .MI-team h3{
+        display: none !important;
+    }
+    .MI-teams{
+        width: fit-content;
+    }
+    .MI-container{
+        width: 100%;
+        min-width: fit-content;
+    }
+}
+@media(max-width: 1000px){
+    .matches-shop .matches .MI-status{
+        display: none;
+    }
+}
+@media(max-width: 850px){
+    .matches-shop{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .shop-part-country{
+        width: 100%;
+        margin-right: 0;
+    }
+    .shop-part-country .shop-card{
+        margin: 0 auto;
+    }
+}
+.btn-Favorite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #5742A9;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    transition: 0.4s;
+}
+.btn-Favorite i{
+    color: #5742A9;
+    transition: 0.4s;
+}
+.btn-Favorite:hover{
+    background-color: #5742A9;
+}
+.btn-Favorite:hover i{
+    color: #FFF;
 }

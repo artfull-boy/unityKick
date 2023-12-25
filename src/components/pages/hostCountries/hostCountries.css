@@ -122,7 +122,7 @@
         max-width: 100%;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 470px) {
     .hostcountries>.mainSection > .title {
         flex-direction: column;
         gap: 20px;

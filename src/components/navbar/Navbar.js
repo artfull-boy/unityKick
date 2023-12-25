@@ -6,7 +6,7 @@ import Palestine from '../../images/State of Palestine (PS).svg';
 import './Navbar.css';
 import {Link,NavLink} from 'react-router-dom';
 import React from "react"
-export default function Navbar({isSmallScreen,isNavOpen,setNavOpen}){
+export default function Navbar({isSmallScreen,removeFav,isNavOpen,setNavOpen,Fav_teams}){
     return<>
         <div className={`navbar-content ${(isNavOpen==false && isSmallScreen)?`hide-nav`:``} ${isSmallScreen?`mobile`:``}`}>
             <div className="logo">
@@ -81,41 +81,46 @@ export default function Navbar({isSmallScreen,isNavOpen,setNavOpen}){
                 <div className='menu'>
                     <h4>Host countries</h4>
                     <div className='menu-list'>
-                    <NavLink to={'/host/Morocco'}>
-                        <div className='menu-item'>
+                        <NavLink to={'/host/Morocco'}><div className='menu-item'>
                             <img src={Morocco} alt='Morocco'></img>
                             <h4>Morocco</h4>
-                        </div>
-                        </NavLink>
-                        <NavLink to={'/host/Spain'}>
-                        <div className='menu-item'>
+                        </div></NavLink>
+                        <NavLink to={'/host/Spain'}><div className='menu-item'>
                             <img src={Spain} alt='Spain'></img>
                             <h4>Spain</h4>
-                        </div>
-                        </NavLink>
-                        <NavLink to={'/host/Portugal'}>
-                        <div className='menu-item'>
+                        </div></NavLink>
+                        <NavLink to={'/host/Portugal'}><div className='menu-item'>
                             <img src={Portugal} alt='Portugal'></img>
                             <h4>Portugal</h4>
-                        </div>
-                        </NavLink>
+                        </div></NavLink>
                     </div>
                 </div>
                 <div className='menu Favoris'>
                     <h4>Favourite Team</h4>
-                    <div className='menu-item'>
-                        <img src={Palestine} alt='Palestine'></img>
-                        <h4>Palestine</h4>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <g clip-path="url(#clip0_1_1427)">
-                        <path d="M7.5 11.4538L2.86515 14L3.90016 8.88705L0 5.34771L5.27491 4.73374L7.5 0L9.72509 4.73374L15 5.34771L11.0998 8.88705L12.1348 14L7.5 11.4538Z" fill="#FF0000"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_1_1427">
-                        <rect width="16" height="16" fill="white"/>
-                        </clipPath>
-                        </defs>
-                        </svg>
+                    <div className='menu-list'>
+                        <div className='menu-item'>
+                            <img src={Palestine} alt='Palestine'></img>
+                            <h4>Palestine</h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <g clip-path="url(#clip0_1_1427)">
+                            <path d="M7.5 11.4538L2.86515 14L3.90016 8.88705L0 5.34771L5.27491 4.73374L7.5 0L9.72509 4.73374L15 5.34771L11.0998 8.88705L12.1348 14L7.5 11.4538Z" fill="#FF0000"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_1427">
+                            <rect width="16" height="16" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                        </div>
+                        {Fav_teams.map((team,index)=>(
+                            <div className='menu-item' key={index}>
+                                <div className='fav-country-details'>
+                                    <img src={`https://media.api-sports.io/flags/${team.code}.svg`} alt={team.name}></img>
+                                    <Link to={`/NationalTeam/${team.code}`}><h4>{team.name}</h4></Link>
+                                </div>
+                                <i class="fa-regular fa-trash-can" onClick={()=>{removeFav(team.code)}}></i>                            
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
