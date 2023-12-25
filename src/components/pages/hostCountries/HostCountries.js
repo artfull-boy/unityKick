@@ -1,8 +1,5 @@
 import React from 'react'
-import hero from '../../../images/heroSpain.jpg'
 import search from '../../../images/icon.svg'
-import mallorca from '../../../images/mallorca.jpg'
-import stadium from '../../../images/staduim.jpg'
 import { Link, useParams } from 'react-router-dom'
 import countryData from '../../../data/hostCountries.json'
 import './hostCountries.css'
@@ -32,7 +29,7 @@ function HostCountries() {
   }
   const cities = filterCities().map(city => (
     <div className='cityCard'>
-      <Link to={`/host/${country}/${city.name}`}>
+      <Link to={`/host/${country}/city/${city.name}`}>
     <img src={city.images[0]} className='img-fluid'></img>
     <div className='citySection'>
     <p className='title'>{city.name}</p>
@@ -43,7 +40,7 @@ function HostCountries() {
   ))
   const stadiums = filterStadiums().map(stadium => (
     <div className='staduimCard'>
-      <Link to={`/host/${country}/${stadium.name}`}>
+      <Link to={`/host/${country}/stadium/${stadium.name}`}>
     <img src={stadium.images[0]} className='img-fluid'></img>
     <div className='staduimSection'>
     <p className='title'>{stadium.name}</p>

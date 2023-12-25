@@ -49,7 +49,8 @@ function App() {
             <Route path='/Statistics/:match_id' element={<StatisticsPage/>}/>
             <Route path='/CityDetails' element={<CityDetails/>}></Route>
             <Route path="/host/:country" element={<HostCountries />}></Route>
-            <Route path="/Bernabeu" element={<Stadium />}></Route>
+            <Route path="/host/:country/stadium/:stadium" element={<Stadium />}></Route>
+            <Route path="/host/:country/city/:city" element={<CityDetails />}></Route>
             
           </Routes>
           <Footer/>
