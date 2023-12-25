@@ -15,15 +15,6 @@
     border: 1px solid #D3D3D3;
     background: #FFF;
 }
-.navbar-content::-webkit-scrollbar {
-    width: 2px;
-    height: 100%;
-    background-color: #EFEFEF;
-}
-.navbar-content::-webkit-scrollbar-thumb {
-    background-color: #5742A9;
-    border-radius: 50px;
-}
 .navbar-content .logo{
     display: flex;
     align-items: center;
@@ -110,26 +101,11 @@
     height: 24px;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.nav-routes .Favoris i{
-    color: #636363;
-    justify-content: end;
-    text-align: end;
-}
-.fav-country-details{
-    display: flex;
-    align-items: center !important;
-    gap: 16px;
-    align-self: stretch;
-    cursor: pointer;
-    flex: 1 0;
+    border-radius: 60px;
 }
 .nav-routes .Favoris svg{
     margin-left: 150px;
 }
-
 .hide-nav{
     display: none !important;
 }
@@ -137,10 +113,6 @@
     width: 320px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     z-index: 100;
-}
-.mobile .nav-routes .Favoris i{
-    margin-left: 100px;
-    color: #636363;
 }
 .mobile .nav-routes .Favoris svg{
     margin-left: 100px;

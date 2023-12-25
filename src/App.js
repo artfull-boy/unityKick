@@ -8,7 +8,7 @@ import StandingPage from './components/pages/standingPage/StandingPage';
 import React from "react"
 import Teams from './components/pages/dashboard/Teams/Teams';
 import TeamsPage from './components/pages/teamsPage/TeamsPage'
-import ParticipatingCountry from './components/pages/participatingCountries/ParticipatingCountries'
+import Morocco from './components/pages/participatingCountries/ParticipatingCountries'
 import NewsPage from './components/pages/newsPage/NewsPage'
 import Footer from './components/footer/Footer';
 import Stadium from './components/pages/Stadiums/Stadium';
@@ -16,34 +16,6 @@ import StatisticsPage from './components/pages/statisticsPage/StatisticsPage';
 import CityDetails from './components/pages/cityDetails/CityDetails';
 import HostCountries from './components/pages/hostCountries/HostCountries'
 function App() {
-  /*-------------Favorite Treatment--------------*/
-  const [FavTeams,setFavTeams] = useState([]);
-  useEffect(() => {
-    const storedFavTeams = localStorage.getItem('FavTeams');
-    if (storedFavTeams) {
-      setFavTeams(JSON.parse(storedFavTeams));
-    }
-  }, []);
-  const handleFavadd = (item) => {
-    const isObjectInArray = (array, objectToCheck) => {
-      return array.some(item => item.code == objectToCheck.code);
-    };
-    var updatedFavTeams;    
-    if(isObjectInArray(FavTeams,item)){
-      updatedFavTeams = FavTeams;
-    }else{
-      updatedFavTeams = [...FavTeams,item];
-    }
-    setFavTeams(updatedFavTeams);
-    localStorage.setItem('FavTeams', JSON.stringify(updatedFavTeams));
-  };
-  const removeFromFav = (TeamCode) => {
-    const updatedCart = FavTeams.filter((Team) => Team.code != TeamCode);
-    setFavTeams(updatedCart);
-    localStorage.setItem('FavTeams', JSON.stringify(updatedCart));
-  };
-
-  /*--------------------NavBar State---------------*/
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 1400);
   const [isNavOpen, setIsNavOpen]= useState(false);
     useEffect(()=>{
@@ -65,14 +37,14 @@ function App() {
               </div>
             </div>
           )}
-          <Navbar isSmallScreen={isSmallScreen} removeFav={removeFromFav} isNavOpen={isNavOpen} setNavOpen={setIsNavOpen} Fav_teams={FavTeams}/>
+          <Navbar isSmallScreen={isSmallScreen} isNavOpen={isNavOpen} setNavOpen={setIsNavOpen}/>
       </div>
       <div className='right-side'>
           <Routes>
             <Route path='/' element={<Dashboard/>}/>
             <Route path='/Standings' element={<StandingPage/>}/>
             <Route path='/teams' element={<TeamsPage />}></Route>
-            <Route path='/NationalTeam/:team' element={<ParticipatingCountry addFav={handleFavadd} FavList={FavTeams}/>}></Route>
+            <Route path='/Morocco' element={<Morocco />}></Route>
             <Route path="/news/:id" element={<NewsPage />}></Route>
             <Route path='/Statistics/:match_id' element={<StatisticsPage/>}/>
             <Route path='/CityDetails' element={<CityDetails/>}></Route>
