@@ -1,0 +1,484 @@
+{
+  "countries": [
+      {
+          "name": "Morocco",
+          "background":"https://images.alphacoders.com/102/1027166.jpg",
+          "cities": [
+            {
+              "name": "Casablanca",
+              "position": "Central",
+              "images": [
+                "https://images7.alphacoders.com/108/1089446.jpg",
+                "https://i.ibb.co/DbmyWCy/casablanca2.jpg",
+                "https://i.ibb.co/MCRmwRT/casablanca3.jpg",
+                "https://i.ibb.co/80zqhG1/casablanca4.jpg"
+              ],
+              "description": "Casablanca is Morocco's largest city and economic hub, known for its bustling markets, historic sites, and modern architecture.",
+              "location":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d106376.70261828903!2d-7.5869925!3d33.5722875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd4778aa113b%3A0xb06c1d84f310fd3!2sCasablanca!5e0!3m2!1sen!2sma!4v1703446439644!5m2!1sen!2sma"
+            },
+            {
+              "name": "Marrakech",
+              "position": "South",
+              "images": [
+                "https://wallpapercave.com/wp/wp4188513.jpg",
+                  "https://www.muchbetteradventures.com/magazine/content/images/2023/01/marrakech.jpg",
+                "https://i.ibb.co/Jv35sNj/marakkech3.jpg",
+                "https://coloredmorocco.com/wp-content/uploads/2021/08/menara-Marrakech-1024x614.jpg"
+              ],
+              "description": "Marrakech, the 'Red City,' is a vibrant cultural and historical center with bustling souks, palaces, and gardens.",
+              "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108703.12973809469!2d-8.090253718263234!3d31.634594989803077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakesh!5e0!3m2!1sen!2sma!4v1703447815674!5m2!1sen!2sma"
+            },
+            {
+              "name": "Fes",
+              "position": "North",
+              "images": [
+                "https://wallpapercave.com/wp/wp3004639.jpg",
+                "https://i.ibb.co/drsCdkj/fes2.jpg",
+                "https://c0.wallpaperflare.com/preview/696/387/769/architecture-medina-morocco-fez.jpg",
+                "https://i.ibb.co/8NfsVKC/fes3.jpg"
+              ],
+              "description": "Fes, one of the oldest imperial cities, is renowned for its well-preserved medieval architecture, including the ancient Medina.",
+              "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52908.418694893!2d-5.042939897819653!3d34.023955980680874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd9f8b484d445777%3A0x10e6aaaeedd802ef!2sFes!5e0!3m2!1sen!2sma!4v1703447858746!5m2!1sen!2sma"
+            },
+            {
+              "name": "Tangier",
+              "position": "North",
+              "images": [
+                "https://www.gjarquitectura.com/wp-content/uploads/2015/04/la-cala-puertas-de-tanger-marruecos-arquitectos_02.jpg",
+                "https://i.ibb.co/Vg1Y6kZ/tangier2.jpg",
+                "https://c0.wallpaperflare.com/preview/667/761/289/morocco-tangier-sky-city.jpg",
+                "https://u.profitroom.pl/2020-mogadorhotels-com/thumb/0x1000/uploads/cities/shutterstock_214315636.jpg"
+              ],
+              "description": "Tangier, a port city at the crossroads of Africa and Europe, boasts a unique blend of cultures, historic sites, and coastal views.",
+              "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103599.8941263366!2d-5.990358666294777!3d35.763173679243096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b875cf04c132d%3A0x76bfc571bfb4e17a!2sTangier!5e0!3m2!1sen!2sma!4v1703447904241!5m2!1sen!2sma"
+            },
+            {
+              "name": "Rabat",
+              "position": "West",
+              "images": [
+                "https://wallpapercave.com/wp/wp3120229.jpg",
+                "https://i.ibb.co/M5bQWyQ/rabat2.jpg",
+                "https://i.ibb.co/wJBjXcb/rabat1.jpg",
+                "https://c1.wallpaperflare.com/preview/385/699/649/monument-to-the-tower-of-hassan-city-of-rabat-in-morocco-travel-dynasty-of-the-almohads.jpg"
+              ],
+              "description": "Rabat, the capital city, is known for its elegant boulevards, historical landmarks, and the Kasbah of the Udayas.",
+              "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105885.07179617653!2d-6.9396633333727!3d33.96919139290897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76b871f50c5c1%3A0x7ac946ed7408076b!2sRabat!5e0!3m2!1sen!2sma!4v1703447939971!5m2!1sen!2sma"
+            },
+            {
+              "name": "Agadir",
+              "position": "Southwest",
+              "images": [
+                  "https://www.jally.de/media/1020/1511-agadir-marina-sunset-wallpaper-4k.jpg",
+                  "https://www.moroccoprivatetours.net/uploads/951_agadir.jpg",
+                  "https://bucketlist.ma/wp-content/uploads/2022/07/is-agadir-worth-visiting-768x473.jpg",
+                  "https://wallpapercave.com/wp/wp11052764.jpg"
+              ],
+              "description": "Agadir, a modern beach resort, offers a blend of relaxation and vibrant nightlife with a backdrop of the Atlas Mountains.",
+              "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55049.232317836904!2d-9.618944129465259!3d30.419740532379237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b6e9daad1cc9%3A0xbcf8d0b78bf48474!2sAgadir%2080000!5e0!3m2!1sen!2sma!4v1703448002857!5m2!1sen!2sma"
+            }
+          ],
+          "stadiums": [
+              {
+                "name": "Grand Stadium of Marrakech",
+                "club": "El Kawkab",
+                "country":"Marrakech, Morocco",
+                "images": [
+                  "https://www.heidelbergmaterials.com/sites/default/files/assets/images/23/ee/stadium_of_marrakech_copyright_ciments_du_maroc.jpg",
+                  "https://www.stadiumguide.com/wp-content/gallery/marrakech/marrakech1.jpg",
+                  "http://stadiumdb.com/pictures/stadiums/mar/stade_de_marrakech/stade_de_marrakech09.jpg",
+                  "http://stadiumdb.com/pictures/stadiums/mar/stade_de_marrakech/stade_de_marrakech01.jpg",
+                  "https://upload.wikimedia.org/wikipedia/commons/0/0d/Stade_de_marrakech.jpg"
+                ],
+                "capacity": 45000,
+                "description": "Stade de Marrakech is a state-of-the-art stadium with modern facilities, offering an electric atmosphere for football enthusiasts,the Grand Stadium of Marrakech, officially known as Stade de Marrakech, is a multi-purpose stadium located in Marrakech, Morocco. It is one of the prominent sports facilities in the country and is primarily used for football matches.The stadium has a seating capacity of around 45,240 spectators and serves as the home ground for several football clubs, including KAC Marrakech and Chabab Atlas Khénifra. It is equipped with modern facilities and has hosted various football events, including domestic league matches and international competitions.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.326091962873!2d-7.983289223730323!3d31.706986174129117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafed72c50b7e8d%3A0x4016a0e3c7405e4c!2sGrand%20Stadium%20of%20Marrakech!5e0!3m2!1sen!2sma!4v1703432138985!5m2!1sen!2sma"
+              },
+              {
+                "name": "Stade Adrar",
+                "club": "Hassania Agadir",
+                "country":"Agadir, Morocco",
+                "images": [
+                  "https://pbs.twimg.com/media/DbEb6vuXcAEKctC.jpg:large",
+                  "https://www.lopinion.ma/photo/art/grande/70574476-49210224.jpg?v=1675501857",
+                  "https://images0.persgroep.net/rcs/sEfM1HtMJ4Se6AtM8xYOZtTXsLg/diocontent/102311340/_fill/1024/768/?appId=21791a8992982cd8da851550a453bd7f&quality=0.9",
+                  "https://pbs.twimg.com/media/DbEb6vuXcAEKctC.jpg",
+                  "https://4.bp.blogspot.com/-pAIYqzvPPHQ/VHEGATcvXuI/AAAAAAAAEW8/h35EdhrgCYI/s1600/DSC_0564.JPG"
+                ],
+                "capacity": 45000,
+                "description": "Stade Adrar, located in Agadir, provides a fantastic setting for football matches, surrounded by the beauty of coastal landscapes.Officially named Stade Adrar, it is one of the key sports venues in the city. The stadium is primarily used for football matches and is the home ground for Hassania Agadir, a football club based in Agadir.Stade Adrar has been a host venue for various football competitions, including domestic league matches and international tournaments. Like many modern stadiums, it is equipped with facilities to accommodate a large number of spectators and provide a suitable environment for sporting events.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.3040008639077!2d-9.542824923772013!3d30.42748297473292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3c9de97587637%3A0x9668ab97f677bc8e!2sAdrar%20Stadium!5e0!3m2!1sen!2sma!4v1703432084146!5m2!1sen!2sma"
+              },
+              {
+                "name": "Ibn Batouta",
+                "club": "Itihad Tanger",
+                "country":"Tangier, Morocco",
+                "images": [
+                  "https://labass.net/wp-content/uploads/2018/07/tanger_stade_football.jpg",
+                  "https://sonarges.ma/wp-content/uploads/2019/10/PISTE-D_ATHLETISME.jpg",
+                  "https://pbs.twimg.com/ext_tw_video_thumb/1620007499872014336/pu/img/nY9vkAarVIl-2jJU.jpg:large",
+                  "https://i.imgur.com/57T0Npu.jpg",
+                  "https://pbs.twimg.com/media/FnLCkZyXkAIhXuU.jpg"
+                ],
+                "capacity": 45000,
+                "description": "Ibn Batouta Stadium is a prominent stadium in Tangier, offering an exhilarating experience with modern amenities and scenic surroundings.Ibn Batouta Stadium, also known as Stade Ibn Batouta, is a football stadium located in Tangier, Morocco. The stadium is named after the famous Moroccan scholar and explorer Ibn Battuta. It serves as the home ground for football clubs such as Ittihad Riadi Tanger and Moghreb Tétouan.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.3926833767628!2d-5.862924011435446!3d35.74115190183677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b87a7b9e9b7e5%3A0xad9add5f6dc2c4c8!2sIbn%20Batouta%20Stadium!5e0!3m2!1sen!2sma!4v1703431936538!5m2!1sen!2sma"
+              },
+              {
+                "name": "Stade Mohammed V",
+                "club": "Raja & Wydad",
+                "country":"Casablanca, Morocco",
+                "images": [
+                  "https://www.lavieeco.com/wp-content/uploads/2023/04/Complexe-Mohammed-V.jpg",
+                  "https://designsportive.ma/wp-content/uploads/2020/08/GrandStade_MohammedV_Casablanca_Morocco1.jpg",
+                  "https://mobile.ledesk.ma/wp-content/uploads/2023/09/Complexe-Mohammed-V.jpeg",
+                  "https://files.lebrief.ma/uploads/2023/01/30161155/Complexe_Sportif_Mohammed-1.jpg",
+                  "https://mobile.ledesk.ma/wp-content/uploads/2023/07/WhatsApp-Image-2023-07-26-at-13.06.55.jpeg"
+                ],
+                "capacity": 45000,
+                "description": "The Mohammed V Stadium is a multi-purpose stadium which is part of the Mohammed V Athletic Complex situated at the heart of Casablanca, Morocco.The stadium is primarily used for football (soccer) matches. It serves as the home ground for several football clubs, including Wydad Casablanca and Raja Casablanca, two of the most successful and popular football clubs in Morocco.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.893841226814!2d-7.649942523666391!3d33.58210547333766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2e77f3d8aaf%3A0x9169b10a83e53ab!2sMohamed%20V%20Sports%20Complex!5e0!3m2!1sen!2sma!4v1703431849066!5m2!1sen!2sma"
+              },
+              {
+                "name": "Prince Moulay Abdellah",
+                "club": "As Far",
+                "country":"Rabat, Morocco",
+                "images": [
+                  "https://pbs.twimg.com/media/FU1SrXlWUB8rTu-?format=jpg&name=large",
+                  "https://faelluce.com/images/progetti/RABATSTADIUM-MOROCCO/03_big.jpg",
+                  "https://pbs.twimg.com/media/ElMBpC4WAAEy_-l?format=jpg&name=4096x4096",
+                  "https://fr.le360.ma/resizer/FIC19FX_fSVtu6Cvo0oCl9SHSwU=/1216x684/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/le360/T3I3URQ3X5E5HAEMQ7NLYJL3KA.jpeg",
+                  "https://upload.wikimedia.org/wikipedia/commons/f/f2/Stade_Prince_Moulay_Abdellah.jpg"
+                ],
+                "capacity": 45000,
+                "description": "Prince Moulay Abdellah is a notable stadium in the capital, offering a spectacular venue for football competitions and events.The Prince Moulay Abdellah Stadium was also a venue for the 2014 FIFA Club World Cup.It was also used as the opening and closing ceremony venue for the 2019 African Games after Malabo, Equatorial Guinea withdrew its rights to host the African Games.It will be one of the venues for the 2025 Africa Cup of Nations after Guinea was stripped of its hosting rights.The venue is planned to be one of the host stadiums for the 2030 FIFA World Cup which Morocco will co-host along with Portugal and Spain.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52928.985695215924!2d-6.897748148123573!3d33.9909513338751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d33381e1715%3A0xa48e7a4d205b07f1!2sPrince%20Moulay%20Abdellah%20Stadium!5e0!3m2!1sen!2sma!4v1703431732203!5m2!1sen!2sma"
+              }
+            ]
+      },
+      {
+          "name": "Spain",
+          "background":"https://images.unsplash.com/photo-1539037116277-4db20889f2d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "cities": [
+              {
+                "name": "Madrid",
+                "position": "Central",
+                "images": [
+                  "https://images.unsplash.com/photo-1543783207-ec64e4d95325?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/5kT0Gvw/madrid2.jpg",
+                  "https://i.ibb.co/Vx6sM2Y/madrid3.jpg",
+                  "https://i.ibb.co/1mHZhck/madrid4.jpg"
+                ],
+                "description": "Madrid, the capital city of Spain, is a cultural powerhouse with world-class museums, historic landmarks, and vibrant nightlife.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194349.1062477247!2d-3.9913496412779397!3d40.43753543186022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3c81%3A0xc436dec1618c2269!2sMadrid%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448129545!5m2!1sen!2sma"
+              },
+              {
+                "name": "Barcelona",
+                "position": "Northeast",
+                "images": [
+                  "https://images.unsplash.com/photo-1583422409516-2895a77efded?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/9HM2krD/barcelona2.jpg",
+                  "https://i.ibb.co/xzxnRVB/barcelona3.jpg",
+                  "https://i.ibb.co/3pMWXv4/barcelona4.jpg"
+                ],
+                "description": "Barcelona, known for its unique architecture and artistic heritage, is a captivating city on the Mediterranean coast.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95780.77930829368!2d1.9843018244695336!3d41.39256275696782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816718e30e5%3A0x44b0fb3d4f47660a!2sBarcelona%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448169622!5m2!1sen!2sma"
+              },
+              {
+                "name": "Seville",
+                "position": "South",
+                "images": [
+                  "https://images.unsplash.com/photo-1509840841025-9088ba78a826?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/nk1fRtk/Sevilla2.jpg",
+                  "https://i.ibb.co/NtB0ttg/Sevilla3.jpg",
+                  "https://images.unsplash.com/photo-1542115049-3af45a7e0ff4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ],
+                "description": "Seville, the capital of Andalusia, is famous for its historic architecture, lively festivals, and passionate flamenco performances.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50729.787324801495!2d-5.9962577156397385!3d37.375363604482494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c1114be6291%3A0x34f018621cfe5648!2sSeville%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448253643!5m2!1sen!2sma"
+              },
+              {
+                "name": "Valencia",
+                "position": "East",
+                "images": [
+                  "https://images.unsplash.com/photo-1565768502719-571073a68b4c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/0mC0M3q/valencia2.jpg",
+                  "https://i.ibb.co/PGYYmD5/valencia3.jpg",
+                  "https://images.unsplash.com/photo-1556661531-dd116f264438?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ],
+                "description": "Valencia, on the eastern coast, is known for its futuristic architecture, beautiful beaches, and the City of Arts and Sciences.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98647.15899170007!2d-0.4439116157215617!3d39.40775618651159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2sValencia%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448287392!5m2!1sen!2sma"
+              },
+              {
+                "name": "Bilbao",
+                "position": "North",
+                "images": [
+                  "https://images.unsplash.com/photo-1544041510-c6127fc6853d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/7NrWpWZ/bilbao2.jpg",
+                  "https://i.ibb.co/b5yjkzg/bilbao3.jpg",
+                  "https://i.ibb.co/X72pXhm/bilbao4.jpg"
+                ],
+                "description": "Bilbao, in the Basque Country, is a modern city with a rich industrial history, known for the Guggenheim Museum Bilbao.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23243.45715704217!2d-2.9541639335562597!3d43.26332165186513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4e27664b89b9%3A0x6534acc41e95a645!2sBilbao%2C%20Biscay%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448327282!5m2!1sen!2sma"
+              },
+              {
+                "name": "Granada",
+                "position": "South",
+                "images": [
+                  "https://images.unsplash.com/photo-1620677368158-32b1293fac36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://i.ibb.co/hRsr1bR/granada2.jpg",
+                  "https://i.ibb.co/yWV0w5c/granada3.jpg",
+                  "https://i.ibb.co/h7FZmmd/granada4.jpg"
+                ],
+                "description": "Granada, surrounded by the Sierra Nevada mountains, is famous for the Alhambra palace and its charming medieval streets.",
+                "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50860.991620408335!2d-3.632471217577012!3d37.18093911786674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fce62d32c27d%3A0x9258f79dd3600d72!2sGranada%2C%20Spain!5e0!3m2!1sen!2sma!4v1703448368042!5m2!1sen!2sma"
+              }
+            ],
+            "stadiums": [
+              {
+                "name": "Santiago Bernabéu Stadium",
+                "club": "Real Madrid",
+                "country":"Madrid, Spain",
+                "images": [
+                  "https://images.unsplash.com/photo-1522778034537-20a2486be803?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1556962021-9d0303621643?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1522778119026-d647f0596c20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1522778526097-ce0a22ceb253?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1522778590545-a5a925dcf6f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ],
+                "capacity": 81044,
+                "description": "Santiago Bernabéu Stadium, home to Real Madrid, is an iconic football venue with a rich history and electrifying matches.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0044412698967!2d-3.690908623405228!3d40.45303867143381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e23705d39f%3A0xa8fff6d26e2b1988!2sSantiago%20Bernab%C3%A9u%20Stadium!5e0!3m2!1sen!2sma!4v1703431114509!5m2!1sen!2sma"
+              },
+              {
+                "name": "Camp Nou",
+                "club": "FC Barcelona",
+                "country":"Barcelona, Spain",
+                "images": [
+                  "https://images.unsplash.com/photo-1585170236738-aadfce97f025?q=80&w=2063&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1587368062478-e804f5e2a55a?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1542683305-710078a12f73?q=80&w=2057&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1595030044556-acfaa61edc0f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1575343406218-42d896e03a85?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ],
+                "capacity": 99354,
+                "description": "Camp Nou, the home stadium of FC Barcelona, is one of the largest football stadiums globally, hosting unforgettable matches.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.686476567915!2d2.120244876633142!3d41.38089597130076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f576297baf%3A0x44f65330fe1b04b9!2sSpotify%20Camp%20Nou!5e0!3m2!1sen!2sma!4v1703431066947!5m2!1sen!2sma"
+              },
+              {
+                "name": "Ramón Sánchez Pizjuán Stadium",
+                "club": "Sevilla FC",
+                "country":"Sevilla, Spain",
+                "images": [
+                  "https://pbs.twimg.com/media/Euc8fUZWgAAQpir?format=jpg&name=4096x4096",
+                  "https://sevillafc.es/sites/default/files/2022-03/50_IMG20201024_001.jpeg",
+                  "https://facts.net/wp-content/uploads/2023/09/17-fascinating-facts-about-estadio-ramon-sanchez-pizjuan-1695134802.jpg",
+                  "https://data2.nssmag.com/images/galleries/34914/Sevilla-nss.png",
+                  "https://www.signify.com/b-dam/b2b-li/en_AA/company/news/news/2017/sevilla-fc/Ramon-Sanchez-Pizjuan-Stadium-Sevilla-FC-02.jpg"
+                ],
+                "capacity": 43875,
+                "description": "Ramón Sánchez Pizjuán Stadium in Seville is a historic football ground known for its passionate atmosphere and thrilling matches.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3170.242954223681!2d-5.973552723527002!3d37.384086272086456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126ebd0479b657%3A0x62ff222e3173860!2sRamon%20Sanchez-Pizjuan%20Stadium!5e0!3m2!1sen!2sma!4v1703431029500!5m2!1sen!2sma"
+              },
+              {
+                "name": "Mestalla Stadium",
+                "club": "Valencia CF",
+                "country":"Valencia, Spain",
+                "images": [
+                  "https://upload.wikimedia.org/wikipedia/commons/0/03/CAMP_DE_MESTALLA_GRADA_DE_LA_MAR_2014.JPG",
+                  "https://www.aroundthegrounds.org/media/zwsda30r/img_7689.jpeg",
+                  "https://www.idom.com/wp-content/uploads/2022/02/Nuevo-Mestalla_IDOM_IMAGEN03_04.jpg",
+                  "https://aws-tiqets-cdn.imgix.net/images/content/d2358d9e9b474de5902f709aa230b79b.jpg?auto=format&fit=crop&ixlib=python-3.2.1&q=70&s=847e54f5b7a0ff98328c0a58a45cd2bb",
+                  "https://ak-d.tripcdn.com/images/0106k120009g3y1f110A3.jpg?proc=source%2Ftrip"
+                ],
+                "capacity": 55000,
+                "description": "Mestalla Stadium, home to Valencia CF, is a legendary football arena with a storied history and loyal fanbase.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12318.76570160323!2d-0.38481077725750507!3d39.47629929569718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6048bd2129f74b%3A0x7504540b8de53e49!2sMestalla%20Stadium!5e0!3m2!1sen!2sma!4v1703430972064!5m2!1sen!2sma"
+              },
+              {
+                "name": "San Mamés Stadium",
+                "club": "Athletic Club Bilbao",
+                "country":"Bilbao, Spain",
+                "images": [
+                    "https://www.iasoglobal.com/img/projects/hd-main/SanMames.jpg",
+                  "https://sanmames.athletic-club.eus/wp-content/uploads/2022/04/entradas-san-mames.jpg",
+                  "https://assets.arquitecturaviva.com/assets/uploads/obras/40524/av_23728.webp?h=03b1f5bc",
+                  "https://www.idom.com/wp-content/uploads/2019/02/2-San-Mames-Stadium-01_IDOM.jpg",
+                  "https://cdn.athletic-club.eus/uploads/2022/07/san-mames-mundial-1920x1080.jpg"
+                ],
+                "capacity": 53289,
+                "description": "San Mamés Stadium in Bilbao is an architectural marvel and a home to Athletic Club, offering an incredible football experience.",
+                "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.391629785316!2d-2.9519165238436593!3d43.264170571123245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e503004259e4f%3A0xdd63774224e34644!2sSan%20Mam%C3%A9s!5e0!3m2!1sen!2sma!4v1703430897872!5m2!1sen!2sma"
+              }
+            ]
+      },
+      {
+          "name": "Portugal",
+          "background": "https://i.ibb.co/0X22dXr/nick-karvounis-Prb-sj-OUBFs-unsplash.jpg",
+          "cities": [
+              {
+                  "name": "Lisbon",
+                  "position": "West",
+                  "images": [
+                      "https://images.unsplash.com/photo-1558102400-72da9fdbecae?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1548707309-dcebeab9ea9b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1578859651203-c7126a106b59?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1525207934214-58e69a8f8a3e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  ],
+                  "description": "Lisbon, Portugal's capital, is a picturesque city with historic neighborhoods, stunning viewpoints, and a vibrant cultural scene.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49789.69204449339!2d-9.20093525176155!3d38.74407221960738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisbon%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703448436074!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Porto",
+                  "position": "North",
+                  "images": [
+                      "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1577958194277-7b3bc213b03c?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1569959220744-ff553533f492?q=80&w=2064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1595704313515-e345a1cbdaa2?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  ],
+                  "description": "Porto, located along the Douro River, is renowned for its port wine, historic architecture, and charming riverside districts.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48059.75842841535!2d-8.663153076235492!3d41.162135610087496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703485358380!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Faro",
+                  "position": "South",
+                  "images": [
+                      "https://images.unsplash.com/photo-1599998563723-3ca4cf0856bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1601286620339-19f10acc8867?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1599577139449-9fcf8eed2dad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/232000/232229-Faro-District.jpg"
+                  ],
+                  "description": "Faro, the gateway to the Algarve region, offers a blend of historical sites, beautiful beaches, and a relaxed Mediterranean atmosphere.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50970.63301922378!2d-7.946110969195968!3d37.0177979793509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0552e72290faa7%3A0x8d73c2d4494aff5a!2sFaro%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703485518724!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Coimbra",
+                  "position": "Central",
+                  "images": [
+                      "https://images.unsplash.com/photo-1635893312205-6abda7db17a0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1501422955948-a75c84b11ecf?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1585687141895-2fa98d0c8003?q=80&w=2049&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1624484582399-9896973f8a16?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  ],
+                  "description": "Coimbra, home to one of the oldest universities, is a city with a rich cultural heritage, historic landmarks, and lively student life.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48741.32340929154!2d-8.42250444072375!3d40.2239040610949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f9144aacd16d%3A0x634564477b42a6b9!2sCoimbra%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703485612330!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Braga",
+                  "position": "North",
+                  "images": [
+                      "https://images.unsplash.com/photo-1591354769669-88dcf14b8c09?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1561916620-5cf42a33a606?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1621445267769-253c24f71fb9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1628418022524-73b322e4e618?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  ],
+                  "description": "Braga, known for its religious heritage, is a city with impressive churches, charming squares, and a blend of ancient and modern architecture.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47776.24366817108!2d-8.452620622053587!3d41.54726749745383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24febc6cf5d867%3A0xbc5d054162d1e218!2sBraga%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703485856007!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Aveiro",
+                  "position": "West",
+                  "images": [
+                      "https://images.unsplash.com/photo-1556572912-ba2085f0ff28?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1531772337062-9d94547f333f?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1511894993551-4e167f7eb8f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1562564875-478697867200?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  ],
+                  "description": "Aveiro, often called the 'Venice of Portugal,' is a coastal town with charming canals, historic buildings, and delicious local cuisine.",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24220.55471573707!2d-8.665227490700461!3d40.63937856987068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23980ed5b2e78d%3A0x3042e1cd013c1f07!2sAveiro%2C%20Portugal!5e0!3m2!1sen!2sma!4v1703485951989!5m2!1sen!2sma"
+              }
+          ],
+          "stadiums": [
+              {
+                  "name": "Estádio da Luz",
+                  "club":"Lisboa Benefica",
+                  "country":"Lisbon, Portugal",
+                  "images": [
+                      "https://images.unsplash.com/photo-1680965040562-87ad36f3c1ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1631656018514-2c44419697aa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1637623830852-ff863ce5210c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://images.unsplash.com/photo-1680965040775-90321e457ee9?q=80&w=1910&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://fifauteam.com/images/stadiums/portugal/EstadiodaLuz/2.webp"
+                  ],
+                  "capacity": 64756,
+                  "description": "Estádio da Luz, officially known as Estádio do Sport Lisboa e Benfica, is a renowned football stadium located in Lisbon, Portugal. Home to S.L. Benfica, one of Portugal's most successful and popular football clubs, the stadium holds a special place in the hearts of football enthusiasts. The name \"Estádio da Luz\" translates to \"Stadium of Light,\" reflecting the club's historic motto. The stadium has a seating capacity of over 64,000, making it one of the largest stadiums in Portugal. Estádio da Luz has witnessed numerous iconic football matches, including domestic league games, international competitions, and the UEFA Champions League final in 2014. The modern and architecturally striking venue provides fans with a vibrant and electric atmosphere during matches.",
+                  "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.4801267907746!2d-9.187266923473718!3d38.752690471755294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1932d5ddc50c71%3A0xf0944b3f8be0881a!2sEst%C3%A1dio%20do%20Sport%20Lisboa%20e%20Benfica!5e0!3m2!1sen!2sma!4v1703486221626!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Estádio do Dragão",
+                  "club":"Porto",
+                  "country":"Porto, Portugal",
+                  "images": [
+                      "https://upload.wikimedia.org/wikipedia/commons/b/b8/Porto_Est%C3%A1dio_do_Drag%C3%A3o_2.jpg",
+                      "https://files.app.fcporto.pt/sources/5c90c1275b9baxXEyzMpfKo1ryKNJ.jpg",
+                      "https://files.app.fcporto.pt/sources/5c90c10bcd43eqXIjjy0NavmB32V3.jpg",
+                      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Est%C3%A1dio_do_Drag%C3%A3o_Aerial.jpg",
+                      "https://www.porto.pt/_next/image?url=https%3A%2F%2Fmedia.porto.pt%2Foriginal_images%2Fmno_estadio_dragao.jpg&w=1460&q=85"
+                  ],
+                  "capacity": 50804,
+                  "description": "Estádio do Dragão, situated in Porto, Portugal, is the impressive home ground of Futebol Clube do Porto (FC Porto), one of the country's most successful football clubs. The name \"Estádio do Dragão\" translates to \"Stadium of the Dragon,\" a nod to the club's dragon emblem. Inaugurated in 2003, the stadium has a seating capacity of over 50,000 and is known for its modern architecture and state-of-the-art facilities. The design incorporates a dragon-shaped structure at the main entrance, adding a distinctive touch to the stadium's identity. Estádio do Dragão has been the venue for significant football events, including domestic league matches and international competitions. FC Porto's passionate fan base, known as \"Portistas,\" creates an electrifying atmosphere during matches, contributing to the stadium's reputation as a fortress for the team",
+                  "location":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.7516602232563!2d-8.586165923375956!3d41.16176997132935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246502a2a20bf7%3A0x1ad7c8d540f6cbe8!2zRXN0w6FkaW8gZG8gRHJhZ8Ojbw!5e0!3m2!1sen!2sma!4v1703486250848!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Estádio José Alvalade",
+                  "club":"Sporting Lisbon",
+                  "country":"Lisbon, Portugal",
+                  "images": [
+                      "https://facts.net/wp-content/uploads/2023/09/10-fascinating-facts-about-estadio-jose-alvalade-1695131380.jpg",
+                      "https://images.unsplash.com/flagged/photo-1559559403-a902f2a17eea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                      "https://pbs.twimg.com/media/FuAeBLqWcAId_5T?format=jpg&name=4096x4096",
+                      "https://pbs.twimg.com/media/FE-wgt7WUAEv4mb?format=jpg&name=4096x4096",
+                      "https://i.ytimg.com/vi/VWYinh6Y5Jg/maxresdefault.jpg"
+                  ],
+                  "capacity": 50466,
+                  "description": "Estádio José Alvalade, located in Lisbon, Portugal, is the esteemed home stadium of Sporting Clube de Portugal, commonly known as Sporting Lisbon. Named in honor of the club's founder, José Alvalade, the stadium has played a significant role in Portuguese football since its inauguration in 2003. With a seating capacity of over 50,000 spectators, the stadium is renowned for its modern architecture and excellent facilities. The design emphasizes comfort and visibility, providing an engaging experience for fans attending football matches, which include domestic league fixtures and international competitions. The stadium complex also includes shopping and leisure facilities, contributing to its role as a dynamic sports and entertainment venue. Estádio José Alvalade has been a witness to memorable football moments and has hosted various events, showcasing its versatility beyond sports. ",
+                  "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.1082299880554!2d-9.16436492347336!3d38.761221571753325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1932e5b5aa2a9b%3A0xc4fe8035597d8f22!2sJos%C3%A9%20Alvalade%20Stadium!5e0!3m2!1sen!2sma!4v1703486683725!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Estádio Municipal de Braga",
+                  "club":"FC Braga",
+                  "country":"Braga, Portugal",
+                  "images": [
+                      "https://images.impresa.pt/olimpia/2023-10-15-Estadio-SC-Braga-417d5156/original",
+                      "https://upload.wikimedia.org/wikipedia/commons/7/77/Eduardo_Souto_de_Moura_-_Braga_Stadium_02_%286010593292%29.jpg",
+                      "https://webraga.pt/wp-content/uploads/2016/07/we-braga-estadio-pedreira-souto-moura-1.jpg",
+                      "https://stadiamania.files.wordpress.com/2014/02/80533783.jpg",
+                      "https://imagens.publico.pt/imagens.aspx/1850565?tp=UH&db=IMAGENS&type=JPG"
+                  ],
+                  "capacity": 30154,
+                  "description": "Estádio Municipal de Braga, commonly referred to as \"Estádio Municipal\" or \"Estádio AXA\" due to sponsorship reasons, is a distinctive football stadium located in Braga, Portugal. Inaugurated in 2003, the stadium stands out for its unique architectural design, featuring a quarry-inspired exterior that blends seamlessly with the surrounding landscape. Home to Sporting Clube de Braga, the stadium has a seating capacity of around 30,286 spectators.One of the most notable features of Estádio Municipal de Braga is its innovative retractable roof, which can be opened or closed depending on weather conditions. This design enhances the overall experience for spectators, providing both shelter and an open-air atmosphere during matches.",
+                  "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.285108429486!2d-8.434132209881096!3d41.563073697220965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fefa9ba2a985%3A0xa13e08a4cb7d4b46!2sBraga%20Municipal%20Stadium!5e0!3m2!1sen!2sma!4v1703486951595!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Estádio Cidade de Coimbra",
+                  "club":"Academia de Coimbra",
+                  "country":"Coimbra, Portugal",
+                  "images": [
+                      "https://bordalo.observador.pt/v2/q:84/rs:fill:2918:1641/c:2918:1641:nowe:1091:208/plain/https://s3.observador.pt/wp-content/uploads/2022/08/16100716/GettyImages-147359602.jpg",
+                      "https://www.coimbra.pt/wp-content/uploads/2023/06/CM-de-Coimbra-pretende-iniciar-renegociacao-legal-e-justa-do-Acordo-de-Utilizacao-do-Estadio-Cidade-de-Coimbra-com-a-AAC-OAF-1-scaled_1920x1080_acf_cropped-1095x616.jpg",
+                      "https://www.centralprojectos.pt/media//MULTIMEDIA/FOTOS/71/0003E06301BB0F.JPG",
+                      "https://kssgroup.com/wp-content/uploads/2016/05/Estadio_Municipal_Coimbra_03.jpg",
+                      "https://cdn.record.pt/images/2023-03/img_1280x720$2023_03_06_13_01_06_2104134.jpg"
+                  ],
+                  "capacity": 30952,
+                  "description": "Estádio Cidade de Coimbra is a stadium in Coimbra, Portugal. <br><br>This stadium belongs to the Municipality of Coimbra and is mainly used by the Académica de Coimbra's football team.The stadium was rebuilt, expanded, and modernized to host some UEFA Euro 2004 matches. Far beyond the sports stadium itself, all the project, called Euro Stadium Project, included the possibility of organizing sports, culture, and commercial events, by the modernization of the entire Calhabé area in Coimbra.<br><br>On 29 October 2003, Académica de Coimbra played at home to Sport Lisboa e Benfica in the first official match in the remodelled stadium.",
+                  "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.2631414533234!2d-8.410238323415411!3d40.20320917147477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f99cb51ff2bd%3A0x60b39cae4992fef7!2sEst%C3%A1dio%20Cidade%20de%20Coimbra!5e0!3m2!1sen!2sma!4v1703487254031!5m2!1sen!2sma"
+              },
+              {
+                  "name": "Estádio Municipal de Aveiro",
+                  "club":"S.C. Beira-Mar",
+                  "country":"Aveiro, Portugal",
+                  "images": [
+                      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Nt-Aveiro-Estadio_Beira-Mar.jpg",
+                      "https://i0.wp.com/stadiumbase.com/wp-content/uploads/2020/05/Est%C3%A1dio-Municipal-de-Aveiro.jpg?fit=1280%2C720&ssl=1",
+                      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Aveiro_Stadium_%2810252860734%29.jpg/2560px-Aveiro_Stadium_%2810252860734%29.jpg",
+                      "https://live.staticflickr.com/4007/4326617845_64e7303045_h.jpg",
+                      "https://www.diarioaveiro.pt/api/assets/download/news/2023/02/12cde019-49eb-40b7-8421-fdf7f282c60c.jpg"
+                  ],
+                  "capacity": 30500,
+                  "description": "Estádio Municipal de Aveiro, also known as Estádio Municipal, is a football stadium located in Aveiro, Portugal. Inaugurated in 2003, the stadium serves as the home ground for the football club S.C. Beira-Mar. It has a seating capacity of around 30,127 spectators.The stadium is a modern sports facility with the capacity to host not only football matches but also other events, including concerts and cultural activities. Estádio Municipal de Aveiro was one of the venues used during the UEFA Euro 2004, showcasing its importance on an international level. Known for its contemporary design and comfortable facilities, the stadium contributes to the sports and recreational infrastructure in the Aveiro region. As with any sports venue, it plays a role in fostering community engagement and providing a platform for sports and entertainment.",
+                  "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.186955683174!2d-8.596270223397218!3d40.64780907140341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23980413660da5%3A0xadfdc0fa47f08bd3!2sAveiro%20Municipal%20Stadium!5e0!3m2!1sen!2sma!4v1703487350538!5m2!1sen!2sma"
+              }
+          ]
+      }
+  ]
+}
