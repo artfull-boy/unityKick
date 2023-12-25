@@ -6,7 +6,7 @@ export default function HostCountriesCard(props){
         backgroundImage: `url(${props.bg})`,
     };
     return<>
-        <Link to='/host'>
+        <Link to={`/host/${props.country}`}>
         <div className='HC-Card' style={componentStyle}>
             <div className='HC-filter'>
                 <div className='HC-info'>

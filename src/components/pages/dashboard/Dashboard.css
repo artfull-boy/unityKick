@@ -17,3 +17,30 @@
     height: 4px;
     background-color: rgba(239, 239, 239, 1);
   }
+  .flag img{
+    border: 3px solid transparent;
+    transition: border 0.3s ease;
+  }
+  .flag img:hover{
+    border: 3px solid #5742A9;
+  }
+  .MI-container{
+    transition: transform 0.3s ease;
+  }
+  .MI-container:hover{
+    transform: scale(1.05);
+  }
+  .view-all:hover {
+    animation-name: horizontal-shaking;
+    animation-duration: 0.5s;
+    
+  }
+
+
+  @keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+  }

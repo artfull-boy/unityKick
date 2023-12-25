@@ -16,24 +16,19 @@ export default function StatisticsPage() {
     const team1Score = parseInt(scoreArray[0], 10);
     const team2Score = parseInt(scoreArray[1], 10);
     var ManOTM = "";
-    if((team1Score == 0 && team2Score == 0) || (team1Score>team2Score)){
-        let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
-        ManOTM = match.t1LineUp[player].name;
-    }else{
-        let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
-        ManOTM = match.t2LineUp[player].name;
-    }
     const goalsHome = [];
     for (let i = 0; i < team1Score; i++) {
         let minutes = Math.floor(Math.random() * (93 - 5 + 1) + 5);
         let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
         goalsHome.push(<p key={i}>{`${match.t1LineUp[player].name} ${minutes}'`}</p>);
+        ManOTM = match.t1LineUp[player].name;
     }
     const goalsAway = [];
     for (let i = 0; i < team2Score; i++) {
         let minutes = Math.floor(Math.random() * (93 - 5 + 1) + 5);
         let player = Math.floor(Math.random() * (10 - 1 + 1) + 1);
         goalsAway.push(<p key={i}>{`${match.t2LineUp[player].name} ${minutes}'`}</p>);
+        ManOTM = match.t2LineUp[player].name;
     }
     return (
         <div className="StatisticsPage">

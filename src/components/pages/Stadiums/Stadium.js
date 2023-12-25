@@ -1,26 +1,27 @@
 import React from 'react'
 import './Stadium.css'
-import mainBackground from '../../../images/unsplash_1XLyzi17Z2M.png'
-import image2 from '../../../images/mario-klassen-70YxSTWa2Zw-unsplash.jpg'
-import image3 from '../../../images/victoria-prymak-CCe_Xt5sEDA-unsplash.jpg'
-import image4 from '../../../images/vienna-reyes-Zs_o1IjVPt4-unsplash.jpg'
-import image5 from '../../../images/vienna-reyes-qCrKTET_09o-unsplash.jpg'
+import countryData from '../../../data/hostCountries.json'
+import { useParams } from 'react-router-dom';
 
 function Stadium() {
-  const [mainImage, setMainImage] = React.useState(mainBackground);
+  const [mainImage, setMainImage] = React.useState('');
   const handleClick = (src) => setMainImage(src)
+  const {country,stadium} = useParams()
+  const selectedStadium = countryData.countries.find(item => item.name == country).stadiums.find(item => item.name == stadium)
+  React.useEffect(()=> {
+    handleClick(selectedStadium.images[0])
+  },[])
   return (
     <div className='stadiumPage'>
-
       <div className='heroSection'>
-        <p className='standingTitle'>Santiago Bernabeu</p>
+        <p className='tixto'>{selectedStadium.name}</p>
         <img className='background' src={mainImage}></img>
         <div className='images'>
-          <img className={mainImage == mainBackground ? 'first' : 'first inactive'} src={mainBackground} onClick={() => handleClick(mainBackground)}></img>
-          <img className={mainImage == image2 ? '' : 'inactive'} src={image2} onClick={() => handleClick(image2)}></img>
-          <img className={mainImage == image3 ? '' : 'inactive'} src={image3} onClick={() => handleClick(image3)}></img>
-          <img className={mainImage == image4 ? '' : 'inactive'} src={image4} onClick={() => handleClick(image4)}></img>
-          <img className={mainImage == image5 ? 'last' : 'last inactive'} src={image5} onClick={() => handleClick(image5)}></img>
+          <img className={mainImage == selectedStadium.images[0] ? 'first' : 'first inactive'} src={selectedStadium.images[0]} onClick={() => handleClick(selectedStadium.images[0])}></img>
+          <img className={mainImage == selectedStadium.images[1] ? '' : 'inactive'} src={selectedStadium.images[1]} onClick={() => handleClick(selectedStadium.images[1])}></img>
+          <img className={mainImage == selectedStadium.images[2] ? '' : 'inactive'} src={selectedStadium.images[2]} onClick={() => handleClick(selectedStadium.images[2])}></img>
+          <img className={mainImage == selectedStadium.images[3] ? '' : 'inactive'} src={selectedStadium.images[3]} onClick={() => handleClick(selectedStadium.images[3])}></img>
+          <img className={mainImage == selectedStadium.images[4] ? 'last' : 'last inactive'} src={selectedStadium.images[4]} onClick={() => handleClick(selectedStadium.images[4])}></img>
         </div>
         <div className='information'>
           <div>
@@ -35,7 +36,7 @@ function Stadium() {
                 </clipPath>
               </defs>
             </svg>
-            <p>Spain, Madrid</p>
+            <p>{selectedStadium.country}</p>
           </div>
           <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
@@ -49,7 +50,7 @@ function Stadium() {
     </clipPath>
   </defs>
 </svg>
-            <p>75 000</p>
+            <p>{selectedStadium.capacity}</p>
           </div>
           <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
@@ -62,19 +63,17 @@ function Stadium() {
     </clipPath>
   </defs>
 </svg>
-            <p>Real Madrid</p>
+            <p>{selectedStadium.club}</p>
           </div>
         </div>
       </div>
       <div className='location'>
         <div className='infos'>
           <p>About Stadium</p>
-          <p>SoFi Stadium is an unprecedented and unparalleled sports and entertainment destination built in Inglewood, CA, by Los Angeles Rams Owner/Chairman E. Stanley Kroenke. <br></br><br></br>
-The first indoor-outdoor stadium to be constructed, SoFi Stadium is the home of the Los Angeles Chargers and the Los Angeles Rams. The state-of-the-art stadium re-imagines the fan experience and will host a variety of events year round including Super Bowl LVI in 2022, the College Football Championship Game in 2023, and the Opening and Closing Ceremonies of the Olympic Games in 2028. <br></br><br></br>
-Located on the site of the former Hollywood Park racetrack, the stadium is the centerpiece of a 298-acre mixed-use development featuring retail, commercial office space, a hotel, residential units, and outdoor park spaces.</p>
+          <p>{selectedStadium.description}</p>
         </div>
         <div className='geolocation'>
-        <iframe src="https://www.google.com/maps/d/embed?mid=1_H3SjKyFgM9afen2Rl7-e7KNKTk&hl=en_US&ehbc=2E312F"></iframe>
+        <iframe src={selectedStadium.location}></iframe>
         </div>
       </div>
     </div>
