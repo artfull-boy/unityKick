@@ -60,7 +60,7 @@ function HostCountry({addFav,FavList}) {
         <div className='trait'></div>
         <div className='standings'>
           <div className='standings-title'>
-            <h3>Standings</h3>
+            <h3>standings</h3>
           </div>
           <div className='standings-list'>
             <CountryClassement team={Country} />
