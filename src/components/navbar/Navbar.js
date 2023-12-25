@@ -81,18 +81,24 @@ export default function Navbar({isSmallScreen,isNavOpen,setNavOpen}){
                 <div className='menu'>
                     <h4>Host countries</h4>
                     <div className='menu-list'>
+                    <NavLink to={'/host/Morocco'}>
                         <div className='menu-item'>
                             <img src={Morocco} alt='Morocco'></img>
                             <h4>Morocco</h4>
                         </div>
+                        </NavLink>
+                        <NavLink to={'/host/Spain'}>
                         <div className='menu-item'>
                             <img src={Spain} alt='Spain'></img>
                             <h4>Spain</h4>
                         </div>
+                        </NavLink>
+                        <NavLink to={'/host/Portugal'}>
                         <div className='menu-item'>
                             <img src={Portugal} alt='Portugal'></img>
                             <h4>Portugal</h4>
                         </div>
+                        </NavLink>
                     </div>
                 </div>
                 <div className='menu Favoris'>
