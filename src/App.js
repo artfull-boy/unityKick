@@ -6,7 +6,6 @@ import Dashboard from './components/pages/dashboard/Dashboard';
 import { BrowserRouter as Router, Route, Routes, Outlet } from 'react-router-dom';
 import StandingPage from './components/pages/standingPage/StandingPage';
 import React from "react"
-import Teams from './components/pages/dashboard/Teams/Teams';
 import TeamsPage from './components/pages/teamsPage/TeamsPage'
 import ParticipatingCountry from './components/pages/participatingCountries/ParticipatingCountries'
 import NewsPage from './components/pages/newsPage/NewsPage'
@@ -15,6 +14,7 @@ import Stadium from './components/pages/Stadiums/Stadium';
 import StatisticsPage from './components/pages/statisticsPage/StatisticsPage';
 import CityDetails from './components/pages/cityDetails/CityDetails';
 import HostCountries from './components/pages/hostCountries/HostCountries'
+import ErrorPage from './components/pages/errorPage/ErrorPage';
 function App() {
   /*-------------Favorite Treatment--------------*/
   const [FavTeams,setFavTeams] = useState([]);
@@ -78,6 +78,7 @@ function App() {
             <Route path="/host/:country" element={<HostCountries />}></Route>
             <Route path="/host/:country/stadium/:stadium" element={<Stadium />}></Route>
             <Route path="/host/:country/city/:city" element={<CityDetails />}></Route>
+            <Route path='*' element={<ErrorPage />}></Route>
           </Routes>
           <Footer/>
       </div>
