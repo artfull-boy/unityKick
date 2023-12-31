@@ -7,13 +7,17 @@ import '../../Elements/ShopCard/ShopCard.css'
 import CountryClassement from './components/CountryClassement';
 import News from '../dashboard/News/News';
 import tenues from '../../../data/kits.json';
+import cover from '../../../data/BackGrounds.json';
 import {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 function HostCountry({addFav,FavList}) {
     const isObjectInArray = (array, objectToCheck) => {
       return array.some(item => item.code == objectToCheck.code);
     };
+    
     const { team } = useParams();
+    var bg;
+    cover.background.map((item)=>{bg=item[team]?item[team]:poster})
     const [Country, setCountry] = useState('Morocco');
     useEffect (()=>{
         const url = `https://api-football-v1.p.rapidapi.com/v3/countries?code=${team}`;
@@ -41,7 +45,7 @@ function HostCountry({addFav,FavList}) {
   return (
     <div className='hostCountry'>
       <div className='poster'>
-        <img src={poster} />
+        <img src={bg}/>
         <button className='btn-Favorite' onClick={()=>{addFav({"code":team,"name":Country})}}>
           <i class={`${isObjectInArray(FavList,{"code":team,"name":Country})?`fa-solid`:`fa-regular`} fa-heart fa-2x`}></i>
         </button>

@@ -20,8 +20,8 @@
 }
 .hostCountry .poster img{
     width: 100%;
-    object-fit: cover;
-    min-height: 500px;
+    object-fit: fill;
+    height: 500px;
     border-radius: 16px;
 }
 .hostCountry .standings-list {
