@@ -20,7 +20,7 @@
 }
 .hostCountry .poster img{
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     height: 500px;
     border-radius: 16px;
 }

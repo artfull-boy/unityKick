@@ -16,6 +16,7 @@ import StatisticsPage from './components/pages/statisticsPage/StatisticsPage';
 import CityDetails from './components/pages/cityDetails/CityDetails';
 import HostCountries from './components/pages/hostCountries/HostCountries'
 import ErrorPage from './components/pages/errorPage/ErrorPage';
+import { Link } from 'react-router-dom';
 function App() {
   /*-------------Favorite Treatment--------------*/
   const [FavTeams,setFavTeams] = useState([]);
@@ -60,8 +61,8 @@ function App() {
             <div id='burger' className={`logo-menu`}>
               <i id='burger' class="fa-solid fa-bars fa-xl" style={{color: "#636363;"}} onClick={()=>{setIsNavOpen(!isNavOpen)}}></i>
               <div className="logo">
-                <img src={Logo} alt='Logo'/>
-                <h2>Unity Kick</h2>
+              <Link to={'/'}><img src={Logo} alt='Logo'/></Link> 
+              <h2>Unity Kick</h2>
               </div>
             </div>
           )}

@@ -19,6 +19,12 @@
   width: 375px !important;
   margin-right: 100px;
 }
+.sidebar.block{
+  position: fixed;
+  z-index: 9000;
+  width: 100%;
+  box-shadow: 2px 2px 8px #00000010;
+}
 .logo-menu{
   display: flex;
   flex-direction: row;
@@ -55,4 +61,14 @@
   position: relative;
   overflow: hidden;
   min-height: 100vh;
+}
+@media(max-width:1400px){
+  .right-side{
+    width: 100%;
+    margin: 0 !important;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    margin-top: 100px !important;
+  }
 }
