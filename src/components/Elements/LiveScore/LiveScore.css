@@ -129,7 +129,6 @@ h3,h4{
 .left-stat .progress{
     height: 4px;
     background-color: rgba(87, 66, 169, 1);
-    width: 58%;
     border-radius: 16px;
     float: right;
 }
@@ -142,7 +141,6 @@ h3,h4{
 .right-stat .progress{
     height: 4px;
     background-color: rgba(86, 6, 23, 1);
-    width: 42%;
     border-radius: 16px;
     float: left;
 }

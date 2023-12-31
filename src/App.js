@@ -8,7 +8,8 @@ import StandingPage from './components/pages/standingPage/StandingPage';
 import React from "react"
 import Teams from './components/pages/dashboard/Teams/Teams';
 import TeamsPage from './components/pages/teamsPage/TeamsPage'
-import ParticipatingCountry from './components/pages/participatingCountries/ParticipatingCountries'
+import ParticipatingCountry
+ from './components/pages/participatingCountries/ParticipatingCountries'
 import NewsPage from './components/pages/newsPage/NewsPage'
 import Footer from './components/footer/Footer';
 import Stadium from './components/pages/Stadiums/Stadium';

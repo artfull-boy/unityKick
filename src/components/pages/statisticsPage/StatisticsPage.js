@@ -15,7 +15,7 @@ export default function StatisticsPage() {
     const scoreArray = match.score.split(' - ');
     const team1Score = parseInt(scoreArray[0], 10);
     const team2Score = parseInt(scoreArray[1], 10);
-    var ManOTM = "";
+    var ManOTM = match.t1LineUp[8].name;
     const goalsHome = [];
     for (let i = 0; i < team1Score; i++) {
         let minutes = Math.floor(Math.random() * (93 - 5 + 1) + 5);

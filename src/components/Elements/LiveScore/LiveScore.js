@@ -21,13 +21,13 @@ export default function LiveScore(){
                     <div className='left-stat'>
                         <h4>7</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"54%"}}></div>
                         </div>
                     </div>
                     <div className='right-stat'>
                         <h4>5</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"34%"}}></div>
                         </div>
                     </div>
                 </div>
@@ -36,13 +36,13 @@ export default function LiveScore(){
                     <div className='left-stat'>
                         <h4>12</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"86%"}}></div>
                         </div>
                     </div>
                     <div className='right-stat'>
                         <h4>7</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"68%"}}></div>
                         </div>
                     </div>
                 </div>
@@ -51,13 +51,13 @@ export default function LiveScore(){
                     <div className='left-stat'>
                         <h4>7</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"60%"}}></div>
                         </div>
                     </div>
                     <div className='right-stat'>
                         <h4>5</h4>
                         <div className='progress-container'>
-                            <div className='progress'></div>
+                            <div className='progress' style={{width:"40%"}}></div>
                         </div>
                     </div>
                 </div>

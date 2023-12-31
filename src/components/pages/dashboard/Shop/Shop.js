@@ -13,7 +13,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 export default function Shop(){
     const kits= tenue.kits;
     return<>
-        <div className='shop'>
+        <div className='shop' id='shop'>
             <div className='shop-title'>
                 <h3>Shop</h3>
             </div>

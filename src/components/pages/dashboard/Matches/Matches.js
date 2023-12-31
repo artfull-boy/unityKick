@@ -25,7 +25,7 @@ export default function Matches(props){
             <div className='matches-result coming-match'>
                 {comingMatches.info.map((match,index)=>{
                     if ((match.t1 == props.team) ||(match.t2 == props.team)) {
-                    return (<MatchInfo t1Logo={match.t1Logo} t1={match.t1} score={match.score} t2Logo={match.t2Logo} t2={match.t2} time={match.time} date={match.date} coming={match.coming} index={index}/>)}
+                    return (<Link to={`/Statistics/${match.index}`}><MatchInfo t1Logo={match.t1Logo} t1={match.t1} score={match.score} t2Logo={match.t2Logo} t2={match.t2} time={match.time} date={match.date} coming={match.coming} index={index}/></Link>)}
                 }) }
             </div>
             );

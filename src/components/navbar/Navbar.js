@@ -63,6 +63,7 @@ export default function Navbar({isSmallScreen,removeFav,isNavOpen,setNavOpen,Fav
                                     <h4> Standings</h4>
                                 </div>
                             </NavLink>
+                            <Link to={'/#shop'}>
                         <div className='menu-item'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                             <g clip-path="url(#clip0_1_713)">
@@ -75,7 +76,7 @@ export default function Navbar({isSmallScreen,removeFav,isNavOpen,setNavOpen,Fav
                             </defs>
                             </svg>
                             <h4>Shop</h4>
-                        </div>
+                        </div></Link>
                     </div>
                 </div>
                 <div className='menu'>
