@@ -75,7 +75,7 @@ function TeamsPage() {
     return (
         <div className="TeamsPage">
             <p className='standingTitle'>
-                🎮 Teams
+                 Teams
             </p>
             <div className="TeamsSection">
                 {filtres()}

@@ -30,7 +30,7 @@ export default function Navbar({isSmallScreen,removeFav,isNavOpen,setNavOpen,Fav
                                             </clipPath>
                                         </defs>
                                     </svg>
-                                    <h4>Dashboard</h4>
+                                    <h4>Home</h4>
                                 </div>
                             </NavLink>
                             <NavLink to={'/Teams'}>

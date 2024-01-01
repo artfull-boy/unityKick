@@ -8,7 +8,7 @@ function StandingPage() {
     <>
     <div className='standingPage'>
         <p className='standingTitle'>
-        🏆 Standings
+         Standings
         </p>
         <div className='standingSection'>
         <div className='standings-list'>

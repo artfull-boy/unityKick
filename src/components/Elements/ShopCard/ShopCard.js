@@ -9,7 +9,7 @@ export default function ShopCard(props){
                 <img src={props.kit}></img>
             </div>
             <div className='kit-details'>
-                <Link to={props.link}><h3>{props.desc}</h3></Link>
+                <Link to={props.link} target="_blank"><h3>{props.desc}</h3></Link>
                 <p>{props.price}</p>
             </div>
         </div>
