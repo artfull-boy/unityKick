@@ -61,6 +61,26 @@
     align-self: stretch;
     border-radius: 16px;
 }
+.unavailable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.unavailable #out-of-stock{
+    margin: auto 0;
+    color: #636363;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:30px 0px;
+}
+.unavailable i{
+    color: #636363;
+    margin: 10px auto;
+}
 .shop-part-country .kit-details {
     display: flex !important;
     text-align: left;

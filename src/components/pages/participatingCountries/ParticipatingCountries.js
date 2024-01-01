@@ -41,7 +41,7 @@ function HostCountry({addFav,FavList}) {
         fetchData();
     },[team])
   const kits=tenues.kits;
-  const desiredKit=kits.find((element)=>(element.description.split(' ')[0]== Country));
+  const desiredKit=kits.find((element)=>(element.description.split(' ')[0]== Country))?kits.find((element)=>(element.description.split(' ')[0]== Country)):'Kit Not Available';
   return (
     <div className='hostCountry'>
       <div className='poster'>
@@ -57,7 +57,11 @@ function HostCountry({addFav,FavList}) {
             <div className='standings-title'>
               <h3>Official Kit</h3>
             </div>
-            <ShopCard kit={desiredKit.Kit} price={desiredKit.Price} desc={desiredKit.description} />
+            {(()=>{if(desiredKit == 'Kit Not Available'){
+              return(<div className='unavailable'><p id='out-of-stock'>{desiredKit}</p><i class="fa-sharp fa-solid fa-box-open fa-xl"></i></div>)
+            }else{
+              return(<ShopCard kit={desiredKit.Kit} price={desiredKit.Price} desc={desiredKit.description}/>)
+            }})()}
           </div>
         </div>
         
