@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/unityKick/static/css/main.bff2b41c.css",
+    "main.css": "/unityKick/static/css/main.1193d356.css",
     "main.js": "/unityKick/static/js/main.d2e07549.js",
     "static/js/787.e345e46c.chunk.js": "/unityKick/static/js/787.e345e46c.chunk.js",
     "static/media/manofTM.png": "/unityKick/static/media/manofTM.cd002600def6911692c6.png",
@@ -19,12 +19,12 @@
     "static/media/icon.svg": "/unityKick/static/media/icon.ca12d7147ecf9a3a195d91acacacf71e.svg",
     "static/media/Morocco (MA).svg": "/unityKick/static/media/Morocco (MA).ac95e33b84a30bb012cf1208d03f76e6.svg",
     "static/media/State of Palestine (PS).svg": "/unityKick/static/media/State of Palestine (PS).06da81cfefc4a924c462aa91ef97033e.svg",
-    "main.bff2b41c.css.map": "/unityKick/static/css/main.bff2b41c.css.map",
+    "main.1193d356.css.map": "/unityKick/static/css/main.1193d356.css.map",
     "main.d2e07549.js.map": "/unityKick/static/js/main.d2e07549.js.map",
     "787.e345e46c.chunk.js.map": "/unityKick/static/js/787.e345e46c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bff2b41c.css",
+    "static/css/main.1193d356.css",
     "static/js/main.d2e07549.js"
   ]
 }
