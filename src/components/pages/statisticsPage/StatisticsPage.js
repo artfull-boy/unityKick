@@ -61,7 +61,7 @@ export default function StatisticsPage() {
                 </div>
             </div>
             <div className="ManOTM">
-                <p>Man of The Match <span>{ManOTM}</span></p>
+                <p>Man of The Match : <span>{` ${ManOTM}`}</span></p>
             </div>
             <div className="lineups">
                 <div className="formation">

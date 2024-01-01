@@ -1,12 +1,13 @@
 {
     "background":[
         {
-           "PT":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/ddd7fd147840401.62cb2214b71be.jpg",
-           "AR":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/914086147840401.62cd570436360.jpg",
-           "FR":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/fbcd03147840401.62cd570435aa0.jpg",
-           "ES":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/e4744b147840401.62d3540db7def.jpg",
-           "BE":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/9aade5147840401.62e47653d50fa.jpg",
-           "TN":"https://mir-s3-cdn-cf.behance.net/project_modules/disp/888daa147840401.62dc9eb7b4b8f.jpg"
+           "PT":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/ddd7fd147840401.62cb2214b71be.jpg",
+           "AR":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/914086147840401.62cd570436360.jpg",
+           "FR":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/fbcd03147840401.62cd570435aa0.jpg",
+           "ES":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/e4744b147840401.62d3540db7def.jpg",
+           "BE":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/9aade5147840401.62e47653d50fa.jpg",
+           "TN":"https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/888daa147840401.62dc9eb7b4b8f.jpg",
+           "BR":"https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/a37e28147840401.62d3644a2ee00.jpg"
         }
     ]
 }
