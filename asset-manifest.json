@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/unityKick/static/css/main.24b061e6.css",
+    "main.js": "/unityKick/static/js/main.90afbd3d.js",
+    "static/js/787.e345e46c.chunk.js": "/unityKick/static/js/787.e345e46c.chunk.js",
+    "static/media/manofTM.png": "/unityKick/static/media/manofTM.cd002600def6911692c6.png",
+    "static/media/MOTM.png": "/unityKick/static/media/MOTM.3f3f1162cceef1b311c2.png",
+    "static/media/shapes.png": "/unityKick/static/media/shapes.d9aa7f5866521efd1d47.png",
+    "static/media/Rectangle.png": "/unityKick/static/media/Rectangle.701a538d2e0d70cda1ca.png",
+    "static/media/hostMA.png": "/unityKick/static/media/hostMA.95193443dd1d5f5ed863.png",
+    "static/media/hero.png": "/unityKick/static/media/hero.a389cf25758e1c0b4128.png",
+    "static/media/Spain (ES).svg": "/unityKick/static/media/Spain (ES).5caf822ae673807b7b03c341534d253d.svg",
+    "static/media/spain.png": "/unityKick/static/media/spain.84ff3bff9e4b5f808412.png",
+    "static/media/morocco.png": "/unityKick/static/media/morocco.de856d2be68b0f370720.png",
+    "static/media/portugal.png": "/unityKick/static/media/portugal.ee2442c2db857aa8ead2.png",
+    "static/media/Portugal (PT).svg": "/unityKick/static/media/Portugal (PT).356f31eff7018014efeda0eec27c910a.svg",
+    "static/media/matchscore.png": "/unityKick/static/media/matchscore.dc6314a5c2dec2a4eb90.png",
+    "index.html": "/unityKick/index.html",
+    "static/media/icon.svg": "/unityKick/static/media/icon.ca12d7147ecf9a3a195d91acacacf71e.svg",
+    "static/media/Morocco (MA).svg": "/unityKick/static/media/Morocco (MA).ac95e33b84a30bb012cf1208d03f76e6.svg",
+    "static/media/State of Palestine (PS).svg": "/unityKick/static/media/State of Palestine (PS).06da81cfefc4a924c462aa91ef97033e.svg",
+    "main.24b061e6.css.map": "/unityKick/static/css/main.24b061e6.css.map",
+    "main.90afbd3d.js.map": "/unityKick/static/js/main.90afbd3d.js.map",
+    "787.e345e46c.chunk.js.map": "/unityKick/static/js/787.e345e46c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24b061e6.css",
+    "static/js/main.90afbd3d.js"
+  ]
+}
