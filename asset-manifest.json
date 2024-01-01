@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/unityKick/static/css/main.24b061e6.css",
-    "main.js": "/unityKick/static/js/main.a7beac00.js",
+    "main.js": "/unityKick/static/js/main.8dd49856.js",
     "static/js/787.e345e46c.chunk.js": "/unityKick/static/js/787.e345e46c.chunk.js",
     "static/media/manofTM.png": "/unityKick/static/media/manofTM.cd002600def6911692c6.png",
     "static/media/MOTM.png": "/unityKick/static/media/MOTM.3f3f1162cceef1b311c2.png",
@@ -20,11 +20,11 @@
     "static/media/Morocco (MA).svg": "/unityKick/static/media/Morocco (MA).ac95e33b84a30bb012cf1208d03f76e6.svg",
     "static/media/State of Palestine (PS).svg": "/unityKick/static/media/State of Palestine (PS).06da81cfefc4a924c462aa91ef97033e.svg",
     "main.24b061e6.css.map": "/unityKick/static/css/main.24b061e6.css.map",
-    "main.a7beac00.js.map": "/unityKick/static/js/main.a7beac00.js.map",
+    "main.8dd49856.js.map": "/unityKick/static/js/main.8dd49856.js.map",
     "787.e345e46c.chunk.js.map": "/unityKick/static/js/787.e345e46c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24b061e6.css",
-    "static/js/main.a7beac00.js"
+    "static/js/main.8dd49856.js"
   ]
 }
