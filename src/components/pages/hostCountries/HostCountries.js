@@ -2,9 +2,15 @@ import React from 'react'
 import search from '../../../images/icon.svg'
 import { Link, useParams } from 'react-router-dom'
 import countryData from '../../../data/hostCountries.json'
+import { useEffect } from 'react'
 import './hostCountries.css'
 
 function HostCountries() {
+  /*---------------Scroll to Top----------*/
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+}, []);
  const [filteredDataCities, setFilteredDataCities] = React.useState('')
  const [filteredDataStadiums, setFilteredDataStadiums] = React.useState('')
  const handleChangeCities = (e) =>  {setFilteredDataCities(e.target.value)}

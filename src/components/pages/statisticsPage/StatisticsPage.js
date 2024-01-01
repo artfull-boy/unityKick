@@ -7,6 +7,11 @@ import "./StatisticsPage.css";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 export default function StatisticsPage() {
+    /*---------------Scroll to Top----------*/
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
     const { match_id } = useParams();
     const desired = matches_data.matches.map((matchDATA)=>(
         matchDATA.info.find((matchID) => matchID.index == match_id)

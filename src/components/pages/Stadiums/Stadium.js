@@ -2,8 +2,14 @@ import React from 'react'
 import './Stadium.css'
 import countryData from '../../../data/hostCountries.json'
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 function Stadium() {
+  /*---------------Scroll to Top----------*/
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
   const [mainImage, setMainImage] = React.useState('');
   const handleClick = (src) => setMainImage(src)
   const {country,stadium} = useParams()

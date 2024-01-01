@@ -5,6 +5,11 @@ import { useState,useEffect } from "react";
 import {Link} from 'react-router-dom';
 
 function TeamsPage() {
+    /*---------------Scroll to Top----------*/
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
     const [continent, setContinent] = React.useState("All");
     const [isSmallScreen, setIsSmallScreen] = React.useState(window.innerWidth < 880);
     React.useEffect(()=>{

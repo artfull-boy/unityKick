@@ -1,10 +1,16 @@
 import './CityDetails.css';
 import { useParams } from 'react-router-dom';
-import countryData from '../../../data/hostCountries.json'
+import countryData from '../../../data/hostCountries.json';
+import { useEffect } from 'react';
 
 
 
 export default function CityDetails(){
+    /*---------------Scroll to Top----------*/
+    useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
     const {country,city} = useParams()
     const selectedCity = countryData.countries.find(item => item.name == country).cities.find(item => item.name == city)
     return <>

@@ -1,8 +1,14 @@
 import React from 'react'
 import './ErrorPage.css'
 import shapes from '../../../images/shapes.png'
+import { useEffect } from 'react'
 
 function ErrorPage() {
+  /*---------------Scroll to Top----------*/
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+}, []);
   return (
     <div className='error'>
         <img src={shapes} ></img>

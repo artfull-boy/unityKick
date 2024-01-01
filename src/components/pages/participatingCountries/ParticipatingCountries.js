@@ -11,6 +11,11 @@ import cover from '../../../data/BackGrounds.json';
 import {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 function HostCountry({addFav,FavList}) {
+  /*---------------Scroll to Top----------*/
+  useEffect(() => {
+    // Scroll to the top of the page when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
     const isObjectInArray = (array, objectToCheck) => {
       return array.some(item => item.code == objectToCheck.code);
     };
